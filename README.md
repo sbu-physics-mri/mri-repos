@@ -12,8 +12,8 @@ To add a project, add the project url to the `urls.toml` file.
 - [tags](#tags)
 	- [mri](#mri)
 	- [medical-imaging](#medical-imaging)
-	- [deep-learning](#deep-learning)
 	- [python](#python)
+	- [deep-learning](#deep-learning)
 	- [neuroimaging](#neuroimaging)
 	- [pytorch](#pytorch)
 	- [machine-learning](#machine-learning)
@@ -21,37 +21,37 @@ To add a project, add the project url to the `urls.toml` file.
 	- [medical-image-processing](#medical-image-processing)
 	- [brain-imaging](#brain-imaging)
 	- [quality-control](#quality-control)
-	- [medical-image-computing](#medical-image-computing)
-	- [convolutional-neural-networks](#convolutional-neural-networks)
-	- [mri-images](#mri-images)
-	- [diffusion-mri](#diffusion-mri)
 	- [image-processing](#image-processing)
-	- [fmri](#fmri)
+	- [medical-image-computing](#medical-image-computing)
+	- [diffusion-mri](#diffusion-mri)
+	- [mri-images](#mri-images)
+	- [convolutional-neural-networks](#convolutional-neural-networks)
 	- [itk](#itk)
+	- [fmri](#fmri)
 	- [quality-assurance](#quality-assurance)
-	- [image-reconstruction](#image-reconstruction)
-	- [image-registration](#image-registration)
-	- [super-resolution](#super-resolution)
-	- [computer-vision](#computer-vision)
-	- [medical-image-analysis](#medical-image-analysis)
-	- [julia](#julia)
-	- [bids](#bids)
-	- [brain-connectivity](#brain-connectivity)
-	- [neuroscience](#neuroscience)
-	- [r](#r)
-	- [tractography](#tractography)
-	- [fastmri-challenge](#fastmri-challenge)
-	- [mri-reconstruction](#mri-reconstruction)
-	- [tensorflow](#tensorflow)
 	- [c-plus-plus](#c-plus-plus)
 	- [registration](#registration)
-	- [dicom](#dicom)
+	- [tractography](#tractography)
+	- [julia](#julia)
 	- [nifti](#nifti)
-	- [fetal](#fetal)
 	- [simulation](#simulation)
-	- [magnetic-resonance-imaging](#magnetic-resonance-imaging)
-	- [medical-physics](#medical-physics)
+	- [image-registration](#image-registration)
+	- [bids](#bids)
+	- [computer-vision](#computer-vision)
+	- [medical-image-analysis](#medical-image-analysis)
+	- [neuroscience](#neuroscience)
 	- [qa](#qa)
+	- [fastmri-challenge](#fastmri-challenge)
+	- [mri-reconstruction](#mri-reconstruction)
+	- [r](#r)
+	- [magnetic-resonance-imaging](#magnetic-resonance-imaging)
+	- [tensorflow](#tensorflow)
+	- [brain-connectivity](#brain-connectivity)
+	- [image-reconstruction](#image-reconstruction)
+	- [super-resolution](#super-resolution)
+	- [fetal](#fetal)
+	- [medical-physics](#medical-physics)
+	- [dicom](#dicom)
 - [languages](#languages)
 	- [python](#python)
 	- [c++](#c++)
@@ -64,26 +64,26 @@ To add a project, add the project url to the `urls.toml` file.
 ## Summary
 | Repository | Description | Stars | Forks | Last Updated |
 |---|---|---|---|---|
-| MONAI | AI Toolkit for Healthcare Imaging | 8113 | 1485 | 2026-04-27 |
-| Slicer | Multi-platform, free open source software for visualization and image computing. | 2426 | 722 | 2026-04-26 |
+| MONAI | AI Toolkit for Healthcare Imaging | 8114 | 1484 | 2026-04-28 |
+| Slicer | Multi-platform, free open source software for visualization and image computing. | 2427 | 722 | 2026-04-27 |
 | torchio | Medical imaging processing for AI applications. | 2394 | 262 | 2026-04-26 |
-| MedicalZooPytorch | A pytorch-based deep learning framework for multi-modal 2D/3D medical image segmentation | 1909 | 304 | 2026-04-24 |
+| MedicalZooPytorch | A pytorch-based deep learning framework for multi-modal 2D/3D medical image segmentation | 1910 | 304 | 2026-04-27 |
 | fastMRI | A large-scale dataset of both raw MRI measurements and clinical MRI images. | 1520 | 421 | 2026-04-22 |
 | nilearn | Machine learning for NeuroImaging in Python | 1391 | 654 | 2026-04-27 |
 | medicaldetectiontoolkit | The Medical Detection Toolkit contains 2D + 3D implementations of prevalent object detectors such as Mask R-CNN, Retina Net, Retina U-Net, as well as a training and inference framework focused on dealing with medical images.   | 1352 | 293 | 2026-04-24 |
-| deepmedic | Efficient Multi-Scale 3D Convolutional Neural Network for Segmentation of 3D Medical Scans | 1060 | 343 | 2026-04-21 |
+| deepmedic | Efficient Multi-Scale 3D Convolutional Neural Network for Segmentation of 3D Medical Scans | 1060 | 342 | 2026-04-21 |
 | SimpleITK | SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages. | 1055 | 228 | 2026-04-23 |
 | medicaltorch | A medical imaging framework for Pytorch | 873 | 129 | 2026-04-11 |
+| freesurfer | Neuroimaging analysis and visualization suite | 827 | 287 | 2026-04-27 |
 | nipype | Workflows and interfaces for neuroimaging packages | 825 | 544 | 2026-04-27 |
-| freesurfer | Neuroimaging analysis and visualization suite | 825 | 287 | 2026-04-27 |
 | nibabel | Python package to access a cacophony of neuro-imaging file formats | 774 | 282 | 2026-04-14 |
-| SynthSeg | Contrast-agnostic segmentation of MRI scans | 549 | 153 | 2026-04-20 |
+| SynthSeg | Contrast-agnostic segmentation of MRI scans | 550 | 153 | 2026-04-27 |
 | brainchop | Brainchop: In-browser 3D MRI rendering and segmentation | 525 | 62 | 2026-04-19 |
 | nipy | Neuroimaging in Python FMRI analysis package | 410 | 148 | 2026-04-23 |
 | bart | BART: Toolbox for Computational Magnetic Resonance Imaging | 363 | 174 | 2026-04-10 |
-| mriviewer | MRI Viewer is a high performance web tool for advanced 2-D and 3-D medical visualizations. | 361 | 104 | 2026-04-22 |
+| mriviewer | MRI Viewer is a high performance web tool for advanced 2-D and 3-D medical visualizations. | 361 | 103 | 2026-04-22 |
 | mriqc | Automated Quality Control and visual reports for Quality Assessment of structural (T1w, T2w) and functional MRI of the brain | 356 | 138 | 2026-04-25 |
-| mrtrix3 | MRtrix3 provides a set of tools to perform various advanced diffusion MRI analyses, including constrained spherical deconvolution (CSD), probabilistic tractography, track-density imaging, and apparent fibre density | 348 | 198 | 2026-04-25 |
+| mrtrix3 | MRtrix3 provides a set of tools to perform various advanced diffusion MRI analyses, including constrained spherical deconvolution (CSD), probabilistic tractography, track-density imaging, and apparent fibre density | 348 | 197 | 2026-04-25 |
 | intensity-normalization | Normalize MR image intensities in Python | 342 | 58 | 2026-04-20 |
 | PyMVPA | MultiVariate Pattern Analysis in Python | 324 | 137 | 2026-03-13 |
 | direct | Deep learning framework for MRI reconstruction | 301 | 49 | 2026-04-19 |
@@ -92,7 +92,7 @@ To add a project, add the project url to the `urls.toml` file.
 | nitime | Timeseries analysis for neuroscience data | 258 | 84 | 2026-04-20 |
 | gadgetron | Gadgetron - Medical Image Reconstruction Framework | 257 | 166 | 2026-04-08 |
 | pypulseq | Pulseq in Python | 198 | 88 | 2026-04-27 |
-| KomaMRI.jl | Koma is a Pulseq-compatible framework to efficiently simulate Magnetic Resonance Imaging (MRI) acquisitions. The main focus of this package is to simulate general scenarios that could arise in pulse sequence development. | 197 | 36 | 2026-04-27 |
+| KomaMRI.jl | Koma is a Pulseq-compatible framework to efficiently simulate Magnetic Resonance Imaging (MRI) acquisitions. The main focus of this package is to simulate general scenarios that could arise in pulse sequence development. | 198 | 36 | 2026-04-27 |
 | brainGraph | Graph theory analysis of brain MRI data | 194 | 54 | 2026-04-14 |
 | qsiprep | Preprocessing of diffusion MRI | 180 | 62 | 2026-04-24 |
 | clinicadl | Framework for the reproducible processing of neuroimaging data with deep learning methods | 178 | 60 | 2026-03-10 |
@@ -118,11 +118,11 @@ To add a project, add the project url to the `urls.toml` file.
 | DCEMRI.jl | World's fastest DCE MRI analysis toolkit | 39 | 16 | 2026-01-12 |
 | DECAES.jl | DEcomposition and Component Analysis of Exponential Signals (DECAES) - a Julia implementation of the UBC Myelin Water Imaging (MWI) toolbox for computing voxelwise T2-distributions of multi spin-echo MRI images. | 37 | 6 | 2026-03-02 |
 | popeye | A population receptive field estimation tool | 35 | 16 | 2026-03-18 |
-| ukftractography | None | 31 | 31 | 2025-12-10 |
 | DL-DiReCT | DL+DiReCT - Direct Cortical Thickness Estimation using Deep Learning-based Anatomy Segmentation and Cortex Parcellation | 31 | 7 | 2026-03-20 |
-| mialsuperresolutiontoolkit | The Medical Image Analysis Laboratory Super-Resolution ToolKit (MIALSRTK) consists of a set of C++ and Python processing and workflow tools necessary to perform motion-robust super-resolution fetal MRI reconstruction in the BIDS Apps framework. | 30 | 15 | 2025-12-30 |
-| hazen | Quality assurance framework for Magnetic Resonance Imaging | 30 | 13 | 2026-04-24 |
+| ukftractography | None | 31 | 31 | 2025-12-10 |
 | gropt | A toolbox for MRI gradient design | 30 | 18 | 2026-03-19 |
+| hazen | Quality assurance framework for Magnetic Resonance Imaging | 30 | 13 | 2026-04-24 |
+| mialsuperresolutiontoolkit | The Medical Image Analysis Laboratory Super-Resolution ToolKit (MIALSRTK) consists of a set of C++ and Python processing and workflow tools necessary to perform motion-robust super-resolution fetal MRI reconstruction in the BIDS Apps framework. | 30 | 15 | 2025-12-30 |
 | disimpy | Massively parallel Monte Carlo diffusion MR simulator written in Python. | 29 | 9 | 2026-03-28 |
 | MriResearchTools.jl | Specialized tools for MRI | 27 | 8 | 2026-03-29 |
 | flow4D | Python code for processing 4D flow dicoms and write velocity profiles for CFD simulations. | 26 | 7 | 2026-03-13 |
@@ -137,14 +137,14 @@ To add a project, add the project url to the `urls.toml` file.
 | mrQA | mrQA: tools for quality assurance in medical imaging datasets, including protocol compliance | 14 | 6 | 2026-01-30 |
 | ukat | UKRIN Kidney Analysis Toolbox | 13 | 4 | 2026-04-21 |
 | MyoQMRI | Quantitative methods for muscle MRI | 12 | 3 | 2026-03-09 |
-| CoSimPy | Python electromagnetic cosimulation library | 12 | 4 | 2026-01-01 |
 | vespa | Python tools for Magnetic Resonance Spectroscopy - Pulses, Simulation and Analysis | 12 | 6 | 2026-03-30 |
+| CoSimPy | Python electromagnetic cosimulation library | 12 | 4 | 2026-01-01 |
 | AFFIRM | A deep recursive fetal motion estimation and correction framework based on slice and volume affinity fusion | 8 | 1 | 2025-07-27 |
 | fetal-IQA | Image quality assessment for fetal MRI | 7 | 0 | 2026-01-21 |
 | dwybss | Blind Source Separation of diffusion MRI for free-water elimination and tissue characterization. | 2 | 0 | 2026-01-23 |
-| MRISafety.jl | MRI safety checks | 0 | 0 | 2025-01-04 |
 | MRDQED | A Magnetic Resonance Data Quality Evaluation Dashboard | 0 | 1 | 2021-01-31 |
 | madym_python | Mirror of python wrappers to Madym hosted on Manchester QBI GitLab project | 0 | 0 | 2021-11-22 |
+| MRISafety.jl | MRI safety checks | 0 | 0 | 2025-01-04 |
 ## Stats
 - Total repos: 81
 - Languages:
@@ -165,8 +165,8 @@ To add a project, add the project url to the `urls.toml` file.
 |---|---|
 | mri | 25 |
 | medical-imaging | 17 |
-| deep-learning | 16 |
 | python | 16 |
+| deep-learning | 16 |
 | neuroimaging | 11 |
 | pytorch | 10 |
 | machine-learning | 9 |
@@ -174,37 +174,37 @@ To add a project, add the project url to the `urls.toml` file.
 | medical-image-processing | 7 |
 | brain-imaging | 6 |
 | quality-control | 5 |
-| medical-image-computing | 4 |
-| convolutional-neural-networks | 4 |
-| mri-images | 4 |
-| diffusion-mri | 4 |
 | image-processing | 4 |
-| fmri | 3 |
+| medical-image-computing | 4 |
+| diffusion-mri | 4 |
+| mri-images | 4 |
+| convolutional-neural-networks | 4 |
 | itk | 3 |
+| fmri | 3 |
 | quality-assurance | 3 |
-| image-reconstruction | 2 |
-| image-registration | 2 |
-| super-resolution | 2 |
-| computer-vision | 2 |
-| medical-image-analysis | 2 |
-| julia | 2 |
-| bids | 2 |
-| brain-connectivity | 2 |
-| neuroscience | 2 |
-| r | 2 |
-| tractography | 2 |
-| fastmri-challenge | 2 |
-| mri-reconstruction | 2 |
-| tensorflow | 2 |
 | c-plus-plus | 2 |
 | registration | 2 |
-| dicom | 2 |
+| tractography | 2 |
+| julia | 2 |
 | nifti | 2 |
-| fetal | 2 |
 | simulation | 2 |
-| magnetic-resonance-imaging | 2 |
-| medical-physics | 2 |
+| image-registration | 2 |
+| bids | 2 |
+| computer-vision | 2 |
+| medical-image-analysis | 2 |
+| neuroscience | 2 |
 | qa | 2 |
+| fastmri-challenge | 2 |
+| mri-reconstruction | 2 |
+| r | 2 |
+| magnetic-resonance-imaging | 2 |
+| tensorflow | 2 |
+| brain-connectivity | 2 |
+| image-reconstruction | 2 |
+| super-resolution | 2 |
+| fetal | 2 |
+| medical-physics | 2 |
+| dicom | 2 |
 
 - Licenses:
 
@@ -244,7 +244,7 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: freesurfer, lcn, mri, neuroimaging
 >- Forks:	287 
 >- Issues:	13
->- Watchers:	825
+>- Watchers:	827
 >- Last updated: 2026-04-27
 
 - [brainchop](https://github.com/neuroneural/brainchop)
@@ -298,7 +298,7 @@ To add a project, add the project url to the `urls.toml` file.
 >- Languages: `Python`
 >- Tags: mri, neuroimage, python, spinalcord
 >- Forks:	118 
->- Issues:	396
+>- Issues:	395
 >- Watchers:	261
 >- Last updated: 2026-04-24
 
@@ -309,7 +309,7 @@ To add a project, add the project url to the `urls.toml` file.
 >- Languages: `Python`
 >- Tags: mri, mri-sequences, pulse-sequences, pulseq, python
 >- Forks:	88 
->- Issues:	34
+>- Issues:	35
 >- Watchers:	198
 >- Last updated: 2026-04-27
 
@@ -321,7 +321,7 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: cardiac, diffusion, diffusion-mri, gpu-acceleration, mri, simulation
 >- Forks:	36 
 >- Issues:	104
->- Watchers:	197
+>- Watchers:	198
 >- Last updated: 2026-04-27
 
 - [brainGraph](https://github.com/cwatson/brainGraph)
@@ -434,17 +434,6 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	31
 >- Last updated: 2026-03-20
 
-- [mialsuperresolutiontoolkit](https://github.com/Medical-Image-Analysis-Laboratory/mialsuperresolutiontoolkit)
->- The Medical Image Analysis Laboratory Super-Resolution ToolKit (MIALSRTK) consists of a set of C++ and Python processing and workflow tools necessary to perform motion-robust super-resolution fetal MRI reconstruction in the BIDS Apps framework.
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `C++`
->- Tags: bids, bids-apps, fetal, itk, mri, nipype, super-resolution, workflow
->- Forks:	15 
->- Issues:	17
->- Watchers:	30
->- Last updated: 2025-12-30
-
 - [hazen](https://github.com/GSTT-CSC/hazen)
 >- Quality assurance framework for Magnetic Resonance Imaging
 
@@ -455,6 +444,17 @@ To add a project, add the project url to the `urls.toml` file.
 >- Issues:	45
 >- Watchers:	30
 >- Last updated: 2026-04-24
+
+- [mialsuperresolutiontoolkit](https://github.com/Medical-Image-Analysis-Laboratory/mialsuperresolutiontoolkit)
+>- The Medical Image Analysis Laboratory Super-Resolution ToolKit (MIALSRTK) consists of a set of C++ and Python processing and workflow tools necessary to perform motion-robust super-resolution fetal MRI reconstruction in the BIDS Apps framework.
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `C++`
+>- Tags: bids, bids-apps, fetal, itk, mri, nipype, super-resolution, workflow
+>- Forks:	15 
+>- Issues:	17
+>- Watchers:	30
+>- Last updated: 2025-12-30
 
 - [MriResearchTools.jl](https://github.com/korbinian90/MriResearchTools.jl)
 >- Specialized tools for MRI
@@ -508,9 +508,9 @@ To add a project, add the project url to the `urls.toml` file.
 >- Languages: `C++`
 >- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
 >- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
 
 - [MedicalZooPytorch](https://github.com/black0017/MedicalZooPytorch)
 >- A pytorch-based deep learning framework for multi-modal 2D/3D medical image segmentation
@@ -520,8 +520,8 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: 3d-convolutional-network, brats2018, brats2019, deep-learning, densenet, iseg, iseg-challenge, medical-image-processing, medical-image-segmentation, medical-imaging, mrbrains18, pytorch, resnet, segmentation, segmentation-models, unet, unet-image-segmentation
 >- Forks:	304 
 >- Issues:	21
->- Watchers:	1909
->- Last updated: 2026-04-24
+>- Watchers:	1910
+>- Last updated: 2026-04-27
 
 - [fastMRI](https://github.com/facebookresearch/fastMRI)
 >- A large-scale dataset of both raw MRI measurements and clinical MRI images.
@@ -551,7 +551,7 @@ To add a project, add the project url to the `urls.toml` file.
 >- License: BSD 3-Clause "New" or "Revised" License
 >- Languages: `Python`
 >- Tags: convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, neural-networks
->- Forks:	343 
+>- Forks:	342 
 >- Issues:	23
 >- Watchers:	1060
 >- Last updated: 2026-04-21
@@ -688,6 +688,183 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	7
 >- Last updated: 2026-01-21
 
+### Python <a name="python"></a>
+- [Slicer](https://github.com/Slicer/Slicer)
+>- Multi-platform, free open source software for visualization and image computing.
+
+>- License: Other
+>- Languages: `C++`
+>- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
+>- Forks:	722 
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
+
+- [torchio](https://github.com/fepegar/torchio)
+>- Medical imaging processing for AI applications.
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: augmentation, data-augmentation, deep-learning, machine-learning, medical-image-analysis, medical-image-computing, medical-image-processing, python, pytorch
+>- Forks:	262 
+>- Issues:	27
+>- Watchers:	2394
+>- Last updated: 2026-04-26
+
+- [nilearn](https://github.com/nilearn/nilearn)
+>- Machine learning for NeuroImaging in Python
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `Python`
+>- Tags: brain-connectivity, brain-imaging, brain-mri, decoding, fmri, machine-learning, mvpa, neuroimaging, python
+>- Forks:	654 
+>- Issues:	292
+>- Watchers:	1391
+>- Last updated: 2026-04-27
+
+- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
+>- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
+
+>- License: Apache License 2.0
+>- Languages: `C++`
+>- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
+>- Forks:	228 
+>- Issues:	79
+>- Watchers:	1055
+>- Last updated: 2026-04-23
+
+- [medicaltorch](https://github.com/perone/medicaltorch?tab=readme-ov-file)
+>- A medical imaging framework for Pytorch
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: computer-vision, deep-learning, machine-learning, medical-imaging, python, pytorch
+>- Forks:	129 
+>- Issues:	17
+>- Watchers:	873
+>- Last updated: 2026-04-11
+
+- [nipype](https://github.com/nipy/nipype)
+>- Workflows and interfaces for neuroimaging packages
+
+>- License: Other
+>- Languages: `Python`
+>- Tags: big-data, brain-imaging, brainweb, data-science, dataflow, dataflow-programming, neuroimaging, python, workflow-engine
+>- Forks:	544 
+>- Issues:	427
+>- Watchers:	825
+>- Last updated: 2026-04-27
+
+- [nibabel](https://github.com/nipy/nibabel)
+>- Python package to access a cacophony of neuro-imaging file formats
+
+>- License: Other
+>- Languages: `Python`
+>- Tags: afni-brik-head, brain-imaging, cifti-2, data-formats, dicom, ecat, gifti, minc, neuroimaging, nifti, python, streamlines, tck, trk
+>- Forks:	282 
+>- Issues:	148
+>- Watchers:	774
+>- Last updated: 2026-04-14
+
+- [spinalcordtoolbox](https://github.com/spinalcordtoolbox/spinalcordtoolbox)
+>- Comprehensive and open-source library of analysis tools for MRI of the spinal cord.
+
+>- License: GNU Lesser General Public License v3.0
+>- Languages: `Python`
+>- Tags: mri, neuroimage, python, spinalcord
+>- Forks:	118 
+>- Issues:	395
+>- Watchers:	261
+>- Last updated: 2026-04-24
+
+- [pypulseq](https://github.com/imr-framework/pypulseq)
+>- Pulseq in Python
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: mri, mri-sequences, pulse-sequences, pulseq, python
+>- Forks:	88 
+>- Issues:	35
+>- Watchers:	198
+>- Last updated: 2026-04-27
+
+- [clinicadl](https://github.com/aramis-lab/clinicadl)
+>- Framework for the reproducible processing of neuroimaging data with deep learning methods
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: alzheimer-disease, brain-imaging, convolutional-neural-network, deep-learning, medical-imaging, neuroimaging, python, pytorch
+>- Forks:	60 
+>- Issues:	54
+>- Watchers:	178
+>- Last updated: 2026-03-10
+
+- [mritopng](https://github.com/danishm/mritopng)
+>- A simple python module to make it easy to batch convert DICOM files to PNG images.
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: dicom, dicom-converter, dicom-images, medical, medical-images, png, python
+>- Forks:	53 
+>- Issues:	5
+>- Watchers:	145
+>- Last updated: 2026-03-25
+
+- [RadQy](https://github.com/ccipd/MRQy)
+>- RadQy is a quality assurance and checking tool for quantitative assessment of magnetic resonance imaging (MRI) and computed tomography (CT) data.
+
+>- License: None
+>- Languages: `Javascript`
+>- Tags: imaging, machine-learning, medical-image-processing, medical-imaging, medical-physics, mri, python, quality-assurance, quality-control, quality-metrics
+>- Forks:	38 
+>- Issues:	1
+>- Watchers:	118
+>- Last updated: 2026-04-09
+
+- [tensorflow-mri](https://github.com/mrphys/tensorflow-mri)
+>- A Library of TensorFlow Operators for Computational MRI
+
+>- License: Apache License 2.0
+>- Languages: `Jupyter Notebook`
+>- Tags: machine-learning, magnetic-resonance-imaging, ml, mri, python, tensorflow
+>- Forks:	6 
+>- Issues:	11
+>- Watchers:	49
+>- Last updated: 2026-04-22
+
+- [hazen](https://github.com/GSTT-CSC/hazen)
+>- Quality assurance framework for Magnetic Resonance Imaging
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: image-processing, mri, mri-phantoms, python, qa, quality-assurance
+>- Forks:	13 
+>- Issues:	45
+>- Watchers:	30
+>- Last updated: 2026-04-24
+
+- [nlsam](https://github.com/samuelstjean/nlsam)
+>- The reference implementation for the Non Local Spatial and Angular Matching (NLSAM) denoising algorithm for diffusion MRI
+
+>- License: GNU General Public License v3.0
+>- Languages: `Python`
+>- Tags: denoising-algorithm, diffusion-mri, machine-learning, python
+>- Forks:	11 
+>- Issues:	1
+>- Watchers:	25
+>- Last updated: 2026-02-11
+
+- [vespa](https://github.com/vespa-mrs/vespa)
+>- Python tools for Magnetic Resonance Spectroscopy - Pulses, Simulation and Analysis
+
+>- License: Other
+>- Languages: `Python`
+>- Tags: fitting, mrs, python, rf-pulse, simulation, spectroscopy, wxpython
+>- Forks:	6 
+>- Issues:	6
+>- Watchers:	12
+>- Last updated: 2026-03-30
+
 ### Deep-Learning <a name="deep-learning"></a>
 - [MONAI](https://github.com/Project-MONAI/MONAI)
 >- AI Toolkit for Healthcare Imaging
@@ -695,10 +872,10 @@ To add a project, add the project url to the `urls.toml` file.
 >- License: Apache License 2.0
 >- Languages: `Python`
 >- Tags: deep-learning, healthcare-imaging, medical-image-computing, medical-image-processing, monai, python3, pytorch
->- Forks:	1485 
+>- Forks:	1484 
 >- Issues:	481
->- Watchers:	8113
->- Last updated: 2026-04-27
+>- Watchers:	8114
+>- Last updated: 2026-04-28
 
 - [torchio](https://github.com/fepegar/torchio)
 >- Medical imaging processing for AI applications.
@@ -719,8 +896,8 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: 3d-convolutional-network, brats2018, brats2019, deep-learning, densenet, iseg, iseg-challenge, medical-image-processing, medical-image-segmentation, medical-imaging, mrbrains18, pytorch, resnet, segmentation, segmentation-models, unet, unet-image-segmentation
 >- Forks:	304 
 >- Issues:	21
->- Watchers:	1909
->- Last updated: 2026-04-24
+>- Watchers:	1910
+>- Last updated: 2026-04-27
 
 - [fastMRI](https://github.com/facebookresearch/fastMRI)
 >- A large-scale dataset of both raw MRI measurements and clinical MRI images.
@@ -750,7 +927,7 @@ To add a project, add the project url to the `urls.toml` file.
 >- License: BSD 3-Clause "New" or "Revised" License
 >- Languages: `Python`
 >- Tags: convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, neural-networks
->- Forks:	343 
+>- Forks:	342 
 >- Issues:	23
 >- Watchers:	1060
 >- Last updated: 2026-04-21
@@ -865,183 +1042,6 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	7
 >- Last updated: 2026-01-21
 
-### Python <a name="python"></a>
-- [Slicer](https://github.com/Slicer/Slicer)
->- Multi-platform, free open source software for visualization and image computing.
-
->- License: Other
->- Languages: `C++`
->- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
->- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
-
-- [torchio](https://github.com/fepegar/torchio)
->- Medical imaging processing for AI applications.
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: augmentation, data-augmentation, deep-learning, machine-learning, medical-image-analysis, medical-image-computing, medical-image-processing, python, pytorch
->- Forks:	262 
->- Issues:	27
->- Watchers:	2394
->- Last updated: 2026-04-26
-
-- [nilearn](https://github.com/nilearn/nilearn)
->- Machine learning for NeuroImaging in Python
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `Python`
->- Tags: brain-connectivity, brain-imaging, brain-mri, decoding, fmri, machine-learning, mvpa, neuroimaging, python
->- Forks:	654 
->- Issues:	292
->- Watchers:	1391
->- Last updated: 2026-04-27
-
-- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
->- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
-
->- License: Apache License 2.0
->- Languages: `C++`
->- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
->- Forks:	228 
->- Issues:	79
->- Watchers:	1055
->- Last updated: 2026-04-23
-
-- [medicaltorch](https://github.com/perone/medicaltorch?tab=readme-ov-file)
->- A medical imaging framework for Pytorch
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: computer-vision, deep-learning, machine-learning, medical-imaging, python, pytorch
->- Forks:	129 
->- Issues:	17
->- Watchers:	873
->- Last updated: 2026-04-11
-
-- [nipype](https://github.com/nipy/nipype)
->- Workflows and interfaces for neuroimaging packages
-
->- License: Other
->- Languages: `Python`
->- Tags: big-data, brain-imaging, brainweb, data-science, dataflow, dataflow-programming, neuroimaging, python, workflow-engine
->- Forks:	544 
->- Issues:	427
->- Watchers:	825
->- Last updated: 2026-04-27
-
-- [nibabel](https://github.com/nipy/nibabel)
->- Python package to access a cacophony of neuro-imaging file formats
-
->- License: Other
->- Languages: `Python`
->- Tags: afni-brik-head, brain-imaging, cifti-2, data-formats, dicom, ecat, gifti, minc, neuroimaging, nifti, python, streamlines, tck, trk
->- Forks:	282 
->- Issues:	148
->- Watchers:	774
->- Last updated: 2026-04-14
-
-- [spinalcordtoolbox](https://github.com/spinalcordtoolbox/spinalcordtoolbox)
->- Comprehensive and open-source library of analysis tools for MRI of the spinal cord.
-
->- License: GNU Lesser General Public License v3.0
->- Languages: `Python`
->- Tags: mri, neuroimage, python, spinalcord
->- Forks:	118 
->- Issues:	396
->- Watchers:	261
->- Last updated: 2026-04-24
-
-- [pypulseq](https://github.com/imr-framework/pypulseq)
->- Pulseq in Python
-
->- License: MIT License
->- Languages: `Python`
->- Tags: mri, mri-sequences, pulse-sequences, pulseq, python
->- Forks:	88 
->- Issues:	34
->- Watchers:	198
->- Last updated: 2026-04-27
-
-- [clinicadl](https://github.com/aramis-lab/clinicadl)
->- Framework for the reproducible processing of neuroimaging data with deep learning methods
-
->- License: MIT License
->- Languages: `Python`
->- Tags: alzheimer-disease, brain-imaging, convolutional-neural-network, deep-learning, medical-imaging, neuroimaging, python, pytorch
->- Forks:	60 
->- Issues:	54
->- Watchers:	178
->- Last updated: 2026-03-10
-
-- [mritopng](https://github.com/danishm/mritopng)
->- A simple python module to make it easy to batch convert DICOM files to PNG images.
-
->- License: MIT License
->- Languages: `Python`
->- Tags: dicom, dicom-converter, dicom-images, medical, medical-images, png, python
->- Forks:	53 
->- Issues:	5
->- Watchers:	145
->- Last updated: 2026-03-25
-
-- [RadQy](https://github.com/ccipd/MRQy)
->- RadQy is a quality assurance and checking tool for quantitative assessment of magnetic resonance imaging (MRI) and computed tomography (CT) data.
-
->- License: None
->- Languages: `Javascript`
->- Tags: imaging, machine-learning, medical-image-processing, medical-imaging, medical-physics, mri, python, quality-assurance, quality-control, quality-metrics
->- Forks:	38 
->- Issues:	1
->- Watchers:	118
->- Last updated: 2026-04-09
-
-- [tensorflow-mri](https://github.com/mrphys/tensorflow-mri)
->- A Library of TensorFlow Operators for Computational MRI
-
->- License: Apache License 2.0
->- Languages: `Jupyter Notebook`
->- Tags: machine-learning, magnetic-resonance-imaging, ml, mri, python, tensorflow
->- Forks:	6 
->- Issues:	11
->- Watchers:	49
->- Last updated: 2026-04-22
-
-- [hazen](https://github.com/GSTT-CSC/hazen)
->- Quality assurance framework for Magnetic Resonance Imaging
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: image-processing, mri, mri-phantoms, python, qa, quality-assurance
->- Forks:	13 
->- Issues:	45
->- Watchers:	30
->- Last updated: 2026-04-24
-
-- [nlsam](https://github.com/samuelstjean/nlsam)
->- The reference implementation for the Non Local Spatial and Angular Matching (NLSAM) denoising algorithm for diffusion MRI
-
->- License: GNU General Public License v3.0
->- Languages: `Python`
->- Tags: denoising-algorithm, diffusion-mri, machine-learning, python
->- Forks:	11 
->- Issues:	1
->- Watchers:	25
->- Last updated: 2026-02-11
-
-- [vespa](https://github.com/vespa-mrs/vespa)
->- Python tools for Magnetic Resonance Spectroscopy - Pulses, Simulation and Analysis
-
->- License: Other
->- Languages: `Python`
->- Tags: fitting, mrs, python, rf-pulse, simulation, spectroscopy, wxpython
->- Forks:	6 
->- Issues:	6
->- Watchers:	12
->- Last updated: 2026-03-30
-
 ### Neuroimaging <a name="neuroimaging"></a>
 - [Slicer](https://github.com/Slicer/Slicer)
 >- Multi-platform, free open source software for visualization and image computing.
@@ -1050,9 +1050,9 @@ To add a project, add the project url to the `urls.toml` file.
 >- Languages: `C++`
 >- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
 >- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
 
 - [nilearn](https://github.com/nilearn/nilearn)
 >- Machine learning for NeuroImaging in Python
@@ -1063,17 +1063,6 @@ To add a project, add the project url to the `urls.toml` file.
 >- Forks:	654 
 >- Issues:	292
 >- Watchers:	1391
->- Last updated: 2026-04-27
-
-- [nipype](https://github.com/nipy/nipype)
->- Workflows and interfaces for neuroimaging packages
-
->- License: Other
->- Languages: `Python`
->- Tags: big-data, brain-imaging, brainweb, data-science, dataflow, dataflow-programming, neuroimaging, python, workflow-engine
->- Forks:	544 
->- Issues:	427
->- Watchers:	825
 >- Last updated: 2026-04-27
 
 - [freesurfer](https://github.com/freesurfer/freesurfer)
@@ -1084,6 +1073,17 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: freesurfer, lcn, mri, neuroimaging
 >- Forks:	287 
 >- Issues:	13
+>- Watchers:	827
+>- Last updated: 2026-04-27
+
+- [nipype](https://github.com/nipy/nipype)
+>- Workflows and interfaces for neuroimaging packages
+
+>- License: Other
+>- Languages: `Python`
+>- Tags: big-data, brain-imaging, brainweb, data-science, dataflow, dataflow-programming, neuroimaging, python, workflow-engine
+>- Forks:	544 
+>- Issues:	427
 >- Watchers:	825
 >- Last updated: 2026-04-27
 
@@ -1171,10 +1171,10 @@ To add a project, add the project url to the `urls.toml` file.
 >- License: Apache License 2.0
 >- Languages: `Python`
 >- Tags: deep-learning, healthcare-imaging, medical-image-computing, medical-image-processing, monai, python3, pytorch
->- Forks:	1485 
+>- Forks:	1484 
 >- Issues:	481
->- Watchers:	8113
->- Last updated: 2026-04-27
+>- Watchers:	8114
+>- Last updated: 2026-04-28
 
 - [torchio](https://github.com/fepegar/torchio)
 >- Medical imaging processing for AI applications.
@@ -1195,8 +1195,8 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: 3d-convolutional-network, brats2018, brats2019, deep-learning, densenet, iseg, iseg-challenge, medical-image-processing, medical-image-segmentation, medical-imaging, mrbrains18, pytorch, resnet, segmentation, segmentation-models, unet, unet-image-segmentation
 >- Forks:	304 
 >- Issues:	21
->- Watchers:	1909
->- Last updated: 2026-04-24
+>- Watchers:	1910
+>- Last updated: 2026-04-27
 
 - [fastMRI](https://github.com/facebookresearch/fastMRI)
 >- A large-scale dataset of both raw MRI measurements and clinical MRI images.
@@ -1304,7 +1304,7 @@ To add a project, add the project url to the `urls.toml` file.
 >- License: BSD 3-Clause "New" or "Revised" License
 >- Languages: `Python`
 >- Tags: convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, neural-networks
->- Forks:	343 
+>- Forks:	342 
 >- Issues:	23
 >- Watchers:	1060
 >- Last updated: 2026-04-21
@@ -1383,9 +1383,9 @@ To add a project, add the project url to the `urls.toml` file.
 >- Languages: `C++`
 >- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
 >- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
 
 - [MedicalZooPytorch](https://github.com/black0017/MedicalZooPytorch)
 >- A pytorch-based deep learning framework for multi-modal 2D/3D medical image segmentation
@@ -1395,8 +1395,8 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: 3d-convolutional-network, brats2018, brats2019, deep-learning, densenet, iseg, iseg-challenge, medical-image-processing, medical-image-segmentation, medical-imaging, mrbrains18, pytorch, resnet, segmentation, segmentation-models, unet, unet-image-segmentation
 >- Forks:	304 
 >- Issues:	21
->- Watchers:	1909
->- Last updated: 2026-04-24
+>- Watchers:	1910
+>- Last updated: 2026-04-27
 
 - [medicaldetectiontoolkit](https://github.com/MIC-DKFZ/medicaldetectiontoolkit)
 >- The Medical Detection Toolkit contains 2D + 3D implementations of prevalent object detectors such as Mask R-CNN, Retina Net, Retina U-Net, as well as a training and inference framework focused on dealing with medical images.  
@@ -1460,10 +1460,10 @@ To add a project, add the project url to the `urls.toml` file.
 >- License: Apache License 2.0
 >- Languages: `Python`
 >- Tags: deep-learning, healthcare-imaging, medical-image-computing, medical-image-processing, monai, python3, pytorch
->- Forks:	1485 
+>- Forks:	1484 
 >- Issues:	481
->- Watchers:	8113
->- Last updated: 2026-04-27
+>- Watchers:	8114
+>- Last updated: 2026-04-28
 
 - [torchio](https://github.com/fepegar/torchio)
 >- Medical imaging processing for AI applications.
@@ -1484,8 +1484,8 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: 3d-convolutional-network, brats2018, brats2019, deep-learning, densenet, iseg, iseg-challenge, medical-image-processing, medical-image-segmentation, medical-imaging, mrbrains18, pytorch, resnet, segmentation, segmentation-models, unet, unet-image-segmentation
 >- Forks:	304 
 >- Issues:	21
->- Watchers:	1909
->- Last updated: 2026-04-24
+>- Watchers:	1910
+>- Last updated: 2026-04-27
 
 - [medicaldetectiontoolkit](https://github.com/MIC-DKFZ/medicaldetectiontoolkit)
 >- The Medical Detection Toolkit contains 2D + 3D implementations of prevalent object detectors such as Mask R-CNN, Retina Net, Retina U-Net, as well as a training and inference framework focused on dealing with medical images.  
@@ -1654,6 +1654,51 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	7
 >- Last updated: 2026-01-21
 
+### Image-Processing <a name="image-processing"></a>
+- [Slicer](https://github.com/Slicer/Slicer)
+>- Multi-platform, free open source software for visualization and image computing.
+
+>- License: Other
+>- Languages: `C++`
+>- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
+>- Forks:	722 
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
+
+- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
+>- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
+
+>- License: Apache License 2.0
+>- Languages: `C++`
+>- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
+>- Forks:	228 
+>- Issues:	79
+>- Watchers:	1055
+>- Last updated: 2026-04-23
+
+- [smriprep](https://github.com/nipreps/smriprep)
+>- Structural MRI PREProcessing (sMRIPrep) workflows for NIPreps (NeuroImaging PREProcessing tools)
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: image-processing, image-registration, image-segmentation, mri, structural-mri, surface-reconstruction
+>- Forks:	46 
+>- Issues:	80
+>- Watchers:	163
+>- Last updated: 2026-04-24
+
+- [hazen](https://github.com/GSTT-CSC/hazen)
+>- Quality assurance framework for Magnetic Resonance Imaging
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: image-processing, mri, mri-phantoms, python, qa, quality-assurance
+>- Forks:	13 
+>- Issues:	45
+>- Watchers:	30
+>- Last updated: 2026-04-24
+
 ### Medical-Image-Computing <a name="medical-image-computing"></a>
 - [MONAI](https://github.com/Project-MONAI/MONAI)
 >- AI Toolkit for Healthcare Imaging
@@ -1661,10 +1706,10 @@ To add a project, add the project url to the `urls.toml` file.
 >- License: Apache License 2.0
 >- Languages: `Python`
 >- Tags: deep-learning, healthcare-imaging, medical-image-computing, medical-image-processing, monai, python3, pytorch
->- Forks:	1485 
+>- Forks:	1484 
 >- Issues:	481
->- Watchers:	8113
->- Last updated: 2026-04-27
+>- Watchers:	8114
+>- Last updated: 2026-04-28
 
 - [Slicer](https://github.com/Slicer/Slicer)
 >- Multi-platform, free open source software for visualization and image computing.
@@ -1673,9 +1718,9 @@ To add a project, add the project url to the `urls.toml` file.
 >- Languages: `C++`
 >- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
 >- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
 
 - [torchio](https://github.com/fepegar/torchio)
 >- Medical imaging processing for AI applications.
@@ -1699,50 +1744,50 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	1352
 >- Last updated: 2026-04-24
 
-### Convolutional-Neural-Networks <a name="convolutional-neural-networks"></a>
-- [fastMRI](https://github.com/facebookresearch/fastMRI)
->- A large-scale dataset of both raw MRI measurements and clinical MRI images.
+### Diffusion-Mri <a name="diffusion-mri"></a>
+- [KomaMRI.jl](https://github.com/JuliaHealth/KomaMRI.jl)
+>- Koma is a Pulseq-compatible framework to efficiently simulate Magnetic Resonance Imaging (MRI) acquisitions. The main focus of this package is to simulate general scenarios that could arise in pulse sequence development.
 
 >- License: MIT License
->- Languages: `Python`
->- Tags: convolutional-neural-networks, deep-learning, fastmri, fastmri-challenge, fastmri-dataset, medical-imaging, mri, mri-reconstruction, pytorch
->- Forks:	421 
->- Issues:	18
->- Watchers:	1520
->- Last updated: 2026-04-22
+>- Languages: `Julia`
+>- Tags: cardiac, diffusion, diffusion-mri, gpu-acceleration, mri, simulation
+>- Forks:	36 
+>- Issues:	104
+>- Watchers:	198
+>- Last updated: 2026-04-27
 
-- [deepmedic](https://github.com/deepmedic/deepmedic)
->- Efficient Multi-Scale 3D Convolutional Neural Network for Segmentation of 3D Medical Scans
+- [qsiprep](https://github.com/PennLINC/qsiprep)
+>- Preprocessing of diffusion MRI
 
 >- License: BSD 3-Clause "New" or "Revised" License
 >- Languages: `Python`
->- Tags: convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, neural-networks
->- Forks:	343 
->- Issues:	23
->- Watchers:	1060
->- Last updated: 2026-04-21
+>- Tags: bids, denoising-images, diffusion-mri, distortion-correction, motion-correction, pipelines
+>- Forks:	62 
+>- Issues:	110
+>- Watchers:	180
+>- Last updated: 2026-04-24
 
-- [quickNAT_pytorch](https://github.com/ai-med/quickNAT_pytorch)
->- PyTorch Implementation of QuickNAT and Bayesian QuickNAT, a fast brain MRI segmentation framework with segmentation Quality control using structure-wise uncertainty
-
->- License: MIT License
->- Languages: `Python`
->- Tags: ai, bayesian, biomarkers, brain-imaging, computer-vision, convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, mri-images, neuroanatomy, pytorch, quality-control, segmentation, uncertainty
->- Forks:	34 
->- Issues:	7
->- Watchers:	104
->- Last updated: 2025-12-03
-
-- [fetal-IQA](https://github.com/daviddmc/fetal-IQA)
->- Image quality assessment for fetal MRI
+- [disimpy](https://github.com/kerkelae/disimpy)
+>- Massively parallel Monte Carlo diffusion MR simulator written in Python.
 
 >- License: MIT License
 >- Languages: `Python`
->- Tags: convolutional-neural-networks, deep-learning, fetal-mri, medical-imaging, pytorch, quality-control, semi-supervised-learning, tensorflow
->- Forks:	0 
->- Issues:	0
->- Watchers:	7
->- Last updated: 2026-01-21
+>- Tags: cuda, diffusion-mri, gpu-computing, monte-carlo-simulation
+>- Forks:	9 
+>- Issues:	6
+>- Watchers:	29
+>- Last updated: 2026-03-28
+
+- [nlsam](https://github.com/samuelstjean/nlsam)
+>- The reference implementation for the Non Local Spatial and Angular Matching (NLSAM) denoising algorithm for diffusion MRI
+
+>- License: GNU General Public License v3.0
+>- Languages: `Python`
+>- Tags: denoising-algorithm, diffusion-mri, machine-learning, python
+>- Forks:	11 
+>- Issues:	1
+>- Watchers:	25
+>- Last updated: 2026-02-11
 
 ### Mri-Images <a name="mri-images"></a>
 - [quickNAT_pytorch](https://github.com/ai-med/quickNAT_pytorch)
@@ -1789,52 +1834,52 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	14
 >- Last updated: 2026-01-30
 
-### Diffusion-Mri <a name="diffusion-mri"></a>
-- [KomaMRI.jl](https://github.com/JuliaHealth/KomaMRI.jl)
->- Koma is a Pulseq-compatible framework to efficiently simulate Magnetic Resonance Imaging (MRI) acquisitions. The main focus of this package is to simulate general scenarios that could arise in pulse sequence development.
+### Convolutional-Neural-Networks <a name="convolutional-neural-networks"></a>
+- [fastMRI](https://github.com/facebookresearch/fastMRI)
+>- A large-scale dataset of both raw MRI measurements and clinical MRI images.
 
 >- License: MIT License
->- Languages: `Julia`
->- Tags: cardiac, diffusion, diffusion-mri, gpu-acceleration, mri, simulation
->- Forks:	36 
->- Issues:	104
->- Watchers:	197
->- Last updated: 2026-04-27
+>- Languages: `Python`
+>- Tags: convolutional-neural-networks, deep-learning, fastmri, fastmri-challenge, fastmri-dataset, medical-imaging, mri, mri-reconstruction, pytorch
+>- Forks:	421 
+>- Issues:	18
+>- Watchers:	1520
+>- Last updated: 2026-04-22
 
-- [qsiprep](https://github.com/PennLINC/qsiprep)
->- Preprocessing of diffusion MRI
+- [deepmedic](https://github.com/deepmedic/deepmedic)
+>- Efficient Multi-Scale 3D Convolutional Neural Network for Segmentation of 3D Medical Scans
 
 >- License: BSD 3-Clause "New" or "Revised" License
 >- Languages: `Python`
->- Tags: bids, denoising-images, diffusion-mri, distortion-correction, motion-correction, pipelines
->- Forks:	62 
->- Issues:	110
->- Watchers:	180
->- Last updated: 2026-04-24
+>- Tags: convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, neural-networks
+>- Forks:	342 
+>- Issues:	23
+>- Watchers:	1060
+>- Last updated: 2026-04-21
 
-- [disimpy](https://github.com/kerkelae/disimpy)
->- Massively parallel Monte Carlo diffusion MR simulator written in Python.
+- [quickNAT_pytorch](https://github.com/ai-med/quickNAT_pytorch)
+>- PyTorch Implementation of QuickNAT and Bayesian QuickNAT, a fast brain MRI segmentation framework with segmentation Quality control using structure-wise uncertainty
 
 >- License: MIT License
 >- Languages: `Python`
->- Tags: cuda, diffusion-mri, gpu-computing, monte-carlo-simulation
->- Forks:	9 
->- Issues:	6
->- Watchers:	29
->- Last updated: 2026-03-28
+>- Tags: ai, bayesian, biomarkers, brain-imaging, computer-vision, convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, mri-images, neuroanatomy, pytorch, quality-control, segmentation, uncertainty
+>- Forks:	34 
+>- Issues:	7
+>- Watchers:	104
+>- Last updated: 2025-12-03
 
-- [nlsam](https://github.com/samuelstjean/nlsam)
->- The reference implementation for the Non Local Spatial and Angular Matching (NLSAM) denoising algorithm for diffusion MRI
+- [fetal-IQA](https://github.com/daviddmc/fetal-IQA)
+>- Image quality assessment for fetal MRI
 
->- License: GNU General Public License v3.0
+>- License: MIT License
 >- Languages: `Python`
->- Tags: denoising-algorithm, diffusion-mri, machine-learning, python
->- Forks:	11 
->- Issues:	1
->- Watchers:	25
->- Last updated: 2026-02-11
+>- Tags: convolutional-neural-networks, deep-learning, fetal-mri, medical-imaging, pytorch, quality-control, semi-supervised-learning, tensorflow
+>- Forks:	0 
+>- Issues:	0
+>- Watchers:	7
+>- Last updated: 2026-01-21
 
-### Image-Processing <a name="image-processing"></a>
+### Itk <a name="itk"></a>
 - [Slicer](https://github.com/Slicer/Slicer)
 >- Multi-platform, free open source software for visualization and image computing.
 
@@ -1842,9 +1887,9 @@ To add a project, add the project url to the `urls.toml` file.
 >- Languages: `C++`
 >- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
 >- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
 
 - [SimpleITK](https://github.com/SimpleITK/SimpleITK)
 >- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
@@ -1857,27 +1902,16 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	1055
 >- Last updated: 2026-04-23
 
-- [smriprep](https://github.com/nipreps/smriprep)
->- Structural MRI PREProcessing (sMRIPrep) workflows for NIPreps (NeuroImaging PREProcessing tools)
+- [mialsuperresolutiontoolkit](https://github.com/Medical-Image-Analysis-Laboratory/mialsuperresolutiontoolkit)
+>- The Medical Image Analysis Laboratory Super-Resolution ToolKit (MIALSRTK) consists of a set of C++ and Python processing and workflow tools necessary to perform motion-robust super-resolution fetal MRI reconstruction in the BIDS Apps framework.
 
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: image-processing, image-registration, image-segmentation, mri, structural-mri, surface-reconstruction
->- Forks:	46 
->- Issues:	80
->- Watchers:	163
->- Last updated: 2026-04-24
-
-- [hazen](https://github.com/GSTT-CSC/hazen)
->- Quality assurance framework for Magnetic Resonance Imaging
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: image-processing, mri, mri-phantoms, python, qa, quality-assurance
->- Forks:	13 
->- Issues:	45
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `C++`
+>- Tags: bids, bids-apps, fetal, itk, mri, nipype, super-resolution, workflow
+>- Forks:	15 
+>- Issues:	17
 >- Watchers:	30
->- Last updated: 2026-04-24
+>- Last updated: 2025-12-30
 
 ### Fmri <a name="fmri"></a>
 - [nilearn](https://github.com/nilearn/nilearn)
@@ -1913,40 +1947,6 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	82
 >- Last updated: 2025-12-27
 
-### Itk <a name="itk"></a>
-- [Slicer](https://github.com/Slicer/Slicer)
->- Multi-platform, free open source software for visualization and image computing.
-
->- License: Other
->- Languages: `C++`
->- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
->- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
-
-- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
->- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
-
->- License: Apache License 2.0
->- Languages: `C++`
->- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
->- Forks:	228 
->- Issues:	79
->- Watchers:	1055
->- Last updated: 2026-04-23
-
-- [mialsuperresolutiontoolkit](https://github.com/Medical-Image-Analysis-Laboratory/mialsuperresolutiontoolkit)
->- The Medical Image Analysis Laboratory Super-Resolution ToolKit (MIALSRTK) consists of a set of C++ and Python processing and workflow tools necessary to perform motion-robust super-resolution fetal MRI reconstruction in the BIDS Apps framework.
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `C++`
->- Tags: bids, bids-apps, fetal, itk, mri, nipype, super-resolution, workflow
->- Forks:	15 
->- Issues:	17
->- Watchers:	30
->- Last updated: 2025-12-30
-
 ### Quality-Assurance <a name="quality-assurance"></a>
 - [RadQy](https://github.com/ccipd/MRQy)
 >- RadQy is a quality assurance and checking tool for quantitative assessment of magnetic resonance imaging (MRI) and computed tomography (CT) data.
@@ -1981,28 +1981,143 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	14
 >- Last updated: 2026-01-30
 
-### Image-Reconstruction <a name="image-reconstruction"></a>
-- [NeSVoR](https://github.com/daviddmc/NeSVoR)
->- NeSVoR is a package for GPU-accelerated slice-to-volume reconstruction.
-
->- License: MIT License
->- Languages: `Python`
->- Tags: 3d-reconstruction, 3d-visualization, deep-learning, image-reconstruction, image-registration, implicit-neural-representation, medical-imaging, mri, nerf, neural-network, neural-rendering, pytorch, segmentation, super-resolution, transformers
->- Forks:	24 
->- Issues:	7
->- Watchers:	105
->- Last updated: 2026-04-20
-
-- [SIRF](https://github.com/SyneRBI/SIRF?tab=readme-ov-file)
->- Main repository for the CCP SynerBI software
+### C-Plus-Plus <a name="c-plus-plus"></a>
+- [Slicer](https://github.com/Slicer/Slicer)
+>- Multi-platform, free open source software for visualization and image computing.
 
 >- License: Other
 >- Languages: `C++`
->- Tags: image-reconstruction, medical-imaging, pet-mr
->- Forks:	32 
->- Issues:	168
->- Watchers:	69
->- Last updated: 2026-04-21
+>- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
+>- Forks:	722 
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
+
+- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
+>- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
+
+>- License: Apache License 2.0
+>- Languages: `C++`
+>- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
+>- Forks:	228 
+>- Issues:	79
+>- Watchers:	1055
+>- Last updated: 2026-04-23
+
+### Registration <a name="registration"></a>
+- [Slicer](https://github.com/Slicer/Slicer)
+>- Multi-platform, free open source software for visualization and image computing.
+
+>- License: Other
+>- Languages: `C++`
+>- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
+>- Forks:	722 
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
+
+- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
+>- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
+
+>- License: Apache License 2.0
+>- Languages: `C++`
+>- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
+>- Forks:	228 
+>- Issues:	79
+>- Watchers:	1055
+>- Last updated: 2026-04-23
+
+### Tractography <a name="tractography"></a>
+- [Slicer](https://github.com/Slicer/Slicer)
+>- Multi-platform, free open source software for visualization and image computing.
+
+>- License: Other
+>- Languages: `C++`
+>- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
+>- Forks:	722 
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
+
+- [brainGraph](https://github.com/cwatson/brainGraph)
+>- Graph theory analysis of brain MRI data
+
+>- License: None
+>- Languages: `R`
+>- Tags: brain-connectivity, brain-imaging, complex-networks, connectome, connectomics, fmri, graph-theory, mri, network-analysis, neuroimaging, neuroscience, r, statistics, tractography
+>- Forks:	54 
+>- Issues:	11
+>- Watchers:	194
+>- Last updated: 2026-04-14
+
+### Julia <a name="julia"></a>
+- [NIfTI.jl](https://github.com/JuliaNeuroscience/NIfTI.jl)
+>- Julia module for reading/writing NIfTI MRI files
+
+>- License: Other
+>- Languages: `Julia`
+>- Tags: fmri, julia, mri, mri-images, nifti
+>- Forks:	34 
+>- Issues:	31
+>- Watchers:	82
+>- Last updated: 2025-12-27
+
+- [DCEMRI.jl](https://github.com/davidssmith/DCEMRI.jl)
+>- World's fastest DCE MRI analysis toolkit
+
+>- License: Other
+>- Languages: `Julia`
+>- Tags: analysis, cancer-imaging-research, dce-mri, julia, mat-files, medical-image-processing, medical-imaging
+>- Forks:	16 
+>- Issues:	5
+>- Watchers:	39
+>- Last updated: 2026-01-12
+
+### Nifti <a name="nifti"></a>
+- [nibabel](https://github.com/nipy/nibabel)
+>- Python package to access a cacophony of neuro-imaging file formats
+
+>- License: Other
+>- Languages: `Python`
+>- Tags: afni-brik-head, brain-imaging, cifti-2, data-formats, dicom, ecat, gifti, minc, neuroimaging, nifti, python, streamlines, tck, trk
+>- Forks:	282 
+>- Issues:	148
+>- Watchers:	774
+>- Last updated: 2026-04-14
+
+- [NIfTI.jl](https://github.com/JuliaNeuroscience/NIfTI.jl)
+>- Julia module for reading/writing NIfTI MRI files
+
+>- License: Other
+>- Languages: `Julia`
+>- Tags: fmri, julia, mri, mri-images, nifti
+>- Forks:	34 
+>- Issues:	31
+>- Watchers:	82
+>- Last updated: 2025-12-27
+
+### Simulation <a name="simulation"></a>
+- [KomaMRI.jl](https://github.com/JuliaHealth/KomaMRI.jl)
+>- Koma is a Pulseq-compatible framework to efficiently simulate Magnetic Resonance Imaging (MRI) acquisitions. The main focus of this package is to simulate general scenarios that could arise in pulse sequence development.
+
+>- License: MIT License
+>- Languages: `Julia`
+>- Tags: cardiac, diffusion, diffusion-mri, gpu-acceleration, mri, simulation
+>- Forks:	36 
+>- Issues:	104
+>- Watchers:	198
+>- Last updated: 2026-04-27
+
+- [vespa](https://github.com/vespa-mrs/vespa)
+>- Python tools for Magnetic Resonance Spectroscopy - Pulses, Simulation and Analysis
+
+>- License: Other
+>- Languages: `Python`
+>- Tags: fitting, mrs, python, rf-pulse, simulation, spectroscopy, wxpython
+>- Forks:	6 
+>- Issues:	6
+>- Watchers:	12
+>- Last updated: 2026-03-30
 
 ### Image-Registration <a name="image-registration"></a>
 - [smriprep](https://github.com/nipreps/smriprep)
@@ -2027,17 +2142,17 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	105
 >- Last updated: 2026-04-20
 
-### Super-Resolution <a name="super-resolution"></a>
-- [NeSVoR](https://github.com/daviddmc/NeSVoR)
->- NeSVoR is a package for GPU-accelerated slice-to-volume reconstruction.
+### Bids <a name="bids"></a>
+- [qsiprep](https://github.com/PennLINC/qsiprep)
+>- Preprocessing of diffusion MRI
 
->- License: MIT License
+>- License: BSD 3-Clause "New" or "Revised" License
 >- Languages: `Python`
->- Tags: 3d-reconstruction, 3d-visualization, deep-learning, image-reconstruction, image-registration, implicit-neural-representation, medical-imaging, mri, nerf, neural-network, neural-rendering, pytorch, segmentation, super-resolution, transformers
->- Forks:	24 
->- Issues:	7
->- Watchers:	105
->- Last updated: 2026-04-20
+>- Tags: bids, denoising-images, diffusion-mri, distortion-correction, motion-correction, pipelines
+>- Forks:	62 
+>- Issues:	110
+>- Watchers:	180
+>- Last updated: 2026-04-24
 
 - [mialsuperresolutiontoolkit](https://github.com/Medical-Image-Analysis-Laboratory/mialsuperresolutiontoolkit)
 >- The Medical Image Analysis Laboratory Super-Resolution ToolKit (MIALSRTK) consists of a set of C++ and Python processing and workflow tools necessary to perform motion-robust super-resolution fetal MRI reconstruction in the BIDS Apps framework.
@@ -2096,75 +2211,6 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	1352
 >- Last updated: 2026-04-24
 
-### Julia <a name="julia"></a>
-- [NIfTI.jl](https://github.com/JuliaNeuroscience/NIfTI.jl)
->- Julia module for reading/writing NIfTI MRI files
-
->- License: Other
->- Languages: `Julia`
->- Tags: fmri, julia, mri, mri-images, nifti
->- Forks:	34 
->- Issues:	31
->- Watchers:	82
->- Last updated: 2025-12-27
-
-- [DCEMRI.jl](https://github.com/davidssmith/DCEMRI.jl)
->- World's fastest DCE MRI analysis toolkit
-
->- License: Other
->- Languages: `Julia`
->- Tags: analysis, cancer-imaging-research, dce-mri, julia, mat-files, medical-image-processing, medical-imaging
->- Forks:	16 
->- Issues:	5
->- Watchers:	39
->- Last updated: 2026-01-12
-
-### Bids <a name="bids"></a>
-- [qsiprep](https://github.com/PennLINC/qsiprep)
->- Preprocessing of diffusion MRI
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `Python`
->- Tags: bids, denoising-images, diffusion-mri, distortion-correction, motion-correction, pipelines
->- Forks:	62 
->- Issues:	110
->- Watchers:	180
->- Last updated: 2026-04-24
-
-- [mialsuperresolutiontoolkit](https://github.com/Medical-Image-Analysis-Laboratory/mialsuperresolutiontoolkit)
->- The Medical Image Analysis Laboratory Super-Resolution ToolKit (MIALSRTK) consists of a set of C++ and Python processing and workflow tools necessary to perform motion-robust super-resolution fetal MRI reconstruction in the BIDS Apps framework.
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `C++`
->- Tags: bids, bids-apps, fetal, itk, mri, nipype, super-resolution, workflow
->- Forks:	15 
->- Issues:	17
->- Watchers:	30
->- Last updated: 2025-12-30
-
-### Brain-Connectivity <a name="brain-connectivity"></a>
-- [nilearn](https://github.com/nilearn/nilearn)
->- Machine learning for NeuroImaging in Python
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `Python`
->- Tags: brain-connectivity, brain-imaging, brain-mri, decoding, fmri, machine-learning, mvpa, neuroimaging, python
->- Forks:	654 
->- Issues:	292
->- Watchers:	1391
->- Last updated: 2026-04-27
-
-- [brainGraph](https://github.com/cwatson/brainGraph)
->- Graph theory analysis of brain MRI data
-
->- License: None
->- Languages: `R`
->- Tags: brain-connectivity, brain-imaging, complex-networks, connectome, connectomics, fmri, graph-theory, mri, network-analysis, neuroimaging, neuroscience, r, statistics, tractography
->- Forks:	54 
->- Issues:	11
->- Watchers:	194
->- Last updated: 2026-04-14
-
 ### Neuroscience <a name="neuroscience"></a>
 - [brainGraph](https://github.com/cwatson/brainGraph)
 >- Graph theory analysis of brain MRI data
@@ -2188,51 +2234,28 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	14
 >- Last updated: 2026-01-30
 
-### R <a name="r"></a>
-- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
->- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
+### Qa <a name="qa"></a>
+- [hazen](https://github.com/GSTT-CSC/hazen)
+>- Quality assurance framework for Magnetic Resonance Imaging
 
 >- License: Apache License 2.0
->- Languages: `C++`
->- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
->- Forks:	228 
->- Issues:	79
->- Watchers:	1055
->- Last updated: 2026-04-23
+>- Languages: `Python`
+>- Tags: image-processing, mri, mri-phantoms, python, qa, quality-assurance
+>- Forks:	13 
+>- Issues:	45
+>- Watchers:	30
+>- Last updated: 2026-04-24
 
-- [brainGraph](https://github.com/cwatson/brainGraph)
->- Graph theory analysis of brain MRI data
+- [mrQA](https://github.com/Open-Minds-Lab/mrQA)
+>- mrQA: tools for quality assurance in medical imaging datasets, including protocol compliance
 
->- License: None
->- Languages: `R`
->- Tags: brain-connectivity, brain-imaging, complex-networks, connectome, connectomics, fmri, graph-theory, mri, network-analysis, neuroimaging, neuroscience, r, statistics, tractography
->- Forks:	54 
->- Issues:	11
->- Watchers:	194
->- Last updated: 2026-04-14
-
-### Tractography <a name="tractography"></a>
-- [Slicer](https://github.com/Slicer/Slicer)
->- Multi-platform, free open source software for visualization and image computing.
-
->- License: Other
->- Languages: `C++`
->- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
->- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
-
-- [brainGraph](https://github.com/cwatson/brainGraph)
->- Graph theory analysis of brain MRI data
-
->- License: None
->- Languages: `R`
->- Tags: brain-connectivity, brain-imaging, complex-networks, connectome, connectomics, fmri, graph-theory, mri, network-analysis, neuroimaging, neuroscience, r, statistics, tractography
->- Forks:	54 
->- Issues:	11
->- Watchers:	194
->- Last updated: 2026-04-14
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: brain, ismrm, mr-image, mri, mri-brain, mri-images, neuroimaging, neuroscience, niqc, qa, quality-assurance, quality-control
+>- Forks:	6 
+>- Issues:	38
+>- Watchers:	14
+>- Last updated: 2026-01-30
 
 ### Fastmri-Challenge <a name="fastmri-challenge"></a>
 - [fastMRI](https://github.com/facebookresearch/fastMRI)
@@ -2280,166 +2303,28 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	301
 >- Last updated: 2026-04-19
 
-### Tensorflow <a name="tensorflow"></a>
-- [tensorflow-mri](https://github.com/mrphys/tensorflow-mri)
->- A Library of TensorFlow Operators for Computational MRI
+### R <a name="r"></a>
+- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
+>- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
 
 >- License: Apache License 2.0
->- Languages: `Jupyter Notebook`
->- Tags: machine-learning, magnetic-resonance-imaging, ml, mri, python, tensorflow
->- Forks:	6 
+>- Languages: `C++`
+>- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
+>- Forks:	228 
+>- Issues:	79
+>- Watchers:	1055
+>- Last updated: 2026-04-23
+
+- [brainGraph](https://github.com/cwatson/brainGraph)
+>- Graph theory analysis of brain MRI data
+
+>- License: None
+>- Languages: `R`
+>- Tags: brain-connectivity, brain-imaging, complex-networks, connectome, connectomics, fmri, graph-theory, mri, network-analysis, neuroimaging, neuroscience, r, statistics, tractography
+>- Forks:	54 
 >- Issues:	11
->- Watchers:	49
->- Last updated: 2026-04-22
-
-- [fetal-IQA](https://github.com/daviddmc/fetal-IQA)
->- Image quality assessment for fetal MRI
-
->- License: MIT License
->- Languages: `Python`
->- Tags: convolutional-neural-networks, deep-learning, fetal-mri, medical-imaging, pytorch, quality-control, semi-supervised-learning, tensorflow
->- Forks:	0 
->- Issues:	0
->- Watchers:	7
->- Last updated: 2026-01-21
-
-### C-Plus-Plus <a name="c-plus-plus"></a>
-- [Slicer](https://github.com/Slicer/Slicer)
->- Multi-platform, free open source software for visualization and image computing.
-
->- License: Other
->- Languages: `C++`
->- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
->- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
-
-- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
->- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
-
->- License: Apache License 2.0
->- Languages: `C++`
->- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
->- Forks:	228 
->- Issues:	79
->- Watchers:	1055
->- Last updated: 2026-04-23
-
-### Registration <a name="registration"></a>
-- [Slicer](https://github.com/Slicer/Slicer)
->- Multi-platform, free open source software for visualization and image computing.
-
->- License: Other
->- Languages: `C++`
->- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
->- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
-
-- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
->- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
-
->- License: Apache License 2.0
->- Languages: `C++`
->- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
->- Forks:	228 
->- Issues:	79
->- Watchers:	1055
->- Last updated: 2026-04-23
-
-### Dicom <a name="dicom"></a>
-- [nibabel](https://github.com/nipy/nibabel)
->- Python package to access a cacophony of neuro-imaging file formats
-
->- License: Other
->- Languages: `Python`
->- Tags: afni-brik-head, brain-imaging, cifti-2, data-formats, dicom, ecat, gifti, minc, neuroimaging, nifti, python, streamlines, tck, trk
->- Forks:	282 
->- Issues:	148
->- Watchers:	774
+>- Watchers:	194
 >- Last updated: 2026-04-14
-
-- [mritopng](https://github.com/danishm/mritopng)
->- A simple python module to make it easy to batch convert DICOM files to PNG images.
-
->- License: MIT License
->- Languages: `Python`
->- Tags: dicom, dicom-converter, dicom-images, medical, medical-images, png, python
->- Forks:	53 
->- Issues:	5
->- Watchers:	145
->- Last updated: 2026-03-25
-
-### Nifti <a name="nifti"></a>
-- [nibabel](https://github.com/nipy/nibabel)
->- Python package to access a cacophony of neuro-imaging file formats
-
->- License: Other
->- Languages: `Python`
->- Tags: afni-brik-head, brain-imaging, cifti-2, data-formats, dicom, ecat, gifti, minc, neuroimaging, nifti, python, streamlines, tck, trk
->- Forks:	282 
->- Issues:	148
->- Watchers:	774
->- Last updated: 2026-04-14
-
-- [NIfTI.jl](https://github.com/JuliaNeuroscience/NIfTI.jl)
->- Julia module for reading/writing NIfTI MRI files
-
->- License: Other
->- Languages: `Julia`
->- Tags: fmri, julia, mri, mri-images, nifti
->- Forks:	34 
->- Issues:	31
->- Watchers:	82
->- Last updated: 2025-12-27
-
-### Fetal <a name="fetal"></a>
-- [SVRTK](https://github.com/SVRTK/SVRTK)
->- MIRTK based SVR reconstruction
-
->- License: Apache License 2.0
->- Languages: `C++`
->- Tags: fetal, mri, reconstruction, retrospecitve, slice-to-volume
->- Forks:	8 
->- Issues:	5
->- Watchers:	67
->- Last updated: 2026-03-24
-
-- [mialsuperresolutiontoolkit](https://github.com/Medical-Image-Analysis-Laboratory/mialsuperresolutiontoolkit)
->- The Medical Image Analysis Laboratory Super-Resolution ToolKit (MIALSRTK) consists of a set of C++ and Python processing and workflow tools necessary to perform motion-robust super-resolution fetal MRI reconstruction in the BIDS Apps framework.
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `C++`
->- Tags: bids, bids-apps, fetal, itk, mri, nipype, super-resolution, workflow
->- Forks:	15 
->- Issues:	17
->- Watchers:	30
->- Last updated: 2025-12-30
-
-### Simulation <a name="simulation"></a>
-- [KomaMRI.jl](https://github.com/JuliaHealth/KomaMRI.jl)
->- Koma is a Pulseq-compatible framework to efficiently simulate Magnetic Resonance Imaging (MRI) acquisitions. The main focus of this package is to simulate general scenarios that could arise in pulse sequence development.
-
->- License: MIT License
->- Languages: `Julia`
->- Tags: cardiac, diffusion, diffusion-mri, gpu-acceleration, mri, simulation
->- Forks:	36 
->- Issues:	104
->- Watchers:	197
->- Last updated: 2026-04-27
-
-- [vespa](https://github.com/vespa-mrs/vespa)
->- Python tools for Magnetic Resonance Spectroscopy - Pulses, Simulation and Analysis
-
->- License: Other
->- Languages: `Python`
->- Tags: fitting, mrs, python, rf-pulse, simulation, spectroscopy, wxpython
->- Forks:	6 
->- Issues:	6
->- Watchers:	12
->- Last updated: 2026-03-30
 
 ### Magnetic-Resonance-Imaging <a name="magnetic-resonance-imaging"></a>
 - [tensorflow-mri](https://github.com/mrphys/tensorflow-mri)
@@ -2464,6 +2349,121 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	23
 >- Last updated: 2026-04-20
 
+### Tensorflow <a name="tensorflow"></a>
+- [tensorflow-mri](https://github.com/mrphys/tensorflow-mri)
+>- A Library of TensorFlow Operators for Computational MRI
+
+>- License: Apache License 2.0
+>- Languages: `Jupyter Notebook`
+>- Tags: machine-learning, magnetic-resonance-imaging, ml, mri, python, tensorflow
+>- Forks:	6 
+>- Issues:	11
+>- Watchers:	49
+>- Last updated: 2026-04-22
+
+- [fetal-IQA](https://github.com/daviddmc/fetal-IQA)
+>- Image quality assessment for fetal MRI
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: convolutional-neural-networks, deep-learning, fetal-mri, medical-imaging, pytorch, quality-control, semi-supervised-learning, tensorflow
+>- Forks:	0 
+>- Issues:	0
+>- Watchers:	7
+>- Last updated: 2026-01-21
+
+### Brain-Connectivity <a name="brain-connectivity"></a>
+- [nilearn](https://github.com/nilearn/nilearn)
+>- Machine learning for NeuroImaging in Python
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `Python`
+>- Tags: brain-connectivity, brain-imaging, brain-mri, decoding, fmri, machine-learning, mvpa, neuroimaging, python
+>- Forks:	654 
+>- Issues:	292
+>- Watchers:	1391
+>- Last updated: 2026-04-27
+
+- [brainGraph](https://github.com/cwatson/brainGraph)
+>- Graph theory analysis of brain MRI data
+
+>- License: None
+>- Languages: `R`
+>- Tags: brain-connectivity, brain-imaging, complex-networks, connectome, connectomics, fmri, graph-theory, mri, network-analysis, neuroimaging, neuroscience, r, statistics, tractography
+>- Forks:	54 
+>- Issues:	11
+>- Watchers:	194
+>- Last updated: 2026-04-14
+
+### Image-Reconstruction <a name="image-reconstruction"></a>
+- [NeSVoR](https://github.com/daviddmc/NeSVoR)
+>- NeSVoR is a package for GPU-accelerated slice-to-volume reconstruction.
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: 3d-reconstruction, 3d-visualization, deep-learning, image-reconstruction, image-registration, implicit-neural-representation, medical-imaging, mri, nerf, neural-network, neural-rendering, pytorch, segmentation, super-resolution, transformers
+>- Forks:	24 
+>- Issues:	7
+>- Watchers:	105
+>- Last updated: 2026-04-20
+
+- [SIRF](https://github.com/SyneRBI/SIRF?tab=readme-ov-file)
+>- Main repository for the CCP SynerBI software
+
+>- License: Other
+>- Languages: `C++`
+>- Tags: image-reconstruction, medical-imaging, pet-mr
+>- Forks:	32 
+>- Issues:	168
+>- Watchers:	69
+>- Last updated: 2026-04-21
+
+### Super-Resolution <a name="super-resolution"></a>
+- [NeSVoR](https://github.com/daviddmc/NeSVoR)
+>- NeSVoR is a package for GPU-accelerated slice-to-volume reconstruction.
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: 3d-reconstruction, 3d-visualization, deep-learning, image-reconstruction, image-registration, implicit-neural-representation, medical-imaging, mri, nerf, neural-network, neural-rendering, pytorch, segmentation, super-resolution, transformers
+>- Forks:	24 
+>- Issues:	7
+>- Watchers:	105
+>- Last updated: 2026-04-20
+
+- [mialsuperresolutiontoolkit](https://github.com/Medical-Image-Analysis-Laboratory/mialsuperresolutiontoolkit)
+>- The Medical Image Analysis Laboratory Super-Resolution ToolKit (MIALSRTK) consists of a set of C++ and Python processing and workflow tools necessary to perform motion-robust super-resolution fetal MRI reconstruction in the BIDS Apps framework.
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `C++`
+>- Tags: bids, bids-apps, fetal, itk, mri, nipype, super-resolution, workflow
+>- Forks:	15 
+>- Issues:	17
+>- Watchers:	30
+>- Last updated: 2025-12-30
+
+### Fetal <a name="fetal"></a>
+- [SVRTK](https://github.com/SVRTK/SVRTK)
+>- MIRTK based SVR reconstruction
+
+>- License: Apache License 2.0
+>- Languages: `C++`
+>- Tags: fetal, mri, reconstruction, retrospecitve, slice-to-volume
+>- Forks:	8 
+>- Issues:	5
+>- Watchers:	67
+>- Last updated: 2026-03-24
+
+- [mialsuperresolutiontoolkit](https://github.com/Medical-Image-Analysis-Laboratory/mialsuperresolutiontoolkit)
+>- The Medical Image Analysis Laboratory Super-Resolution ToolKit (MIALSRTK) consists of a set of C++ and Python processing and workflow tools necessary to perform motion-robust super-resolution fetal MRI reconstruction in the BIDS Apps framework.
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `C++`
+>- Tags: bids, bids-apps, fetal, itk, mri, nipype, super-resolution, workflow
+>- Forks:	15 
+>- Issues:	17
+>- Watchers:	30
+>- Last updated: 2025-12-30
+
 ### Medical-Physics <a name="medical-physics"></a>
 - [RadQy](https://github.com/ccipd/MRQy)
 >- RadQy is a quality assurance and checking tool for quantitative assessment of magnetic resonance imaging (MRI) and computed tomography (CT) data.
@@ -2487,112 +2487,280 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	23
 >- Last updated: 2026-04-20
 
-### Qa <a name="qa"></a>
-- [hazen](https://github.com/GSTT-CSC/hazen)
->- Quality assurance framework for Magnetic Resonance Imaging
+### Dicom <a name="dicom"></a>
+- [nibabel](https://github.com/nipy/nibabel)
+>- Python package to access a cacophony of neuro-imaging file formats
+
+>- License: Other
+>- Languages: `Python`
+>- Tags: afni-brik-head, brain-imaging, cifti-2, data-formats, dicom, ecat, gifti, minc, neuroimaging, nifti, python, streamlines, tck, trk
+>- Forks:	282 
+>- Issues:	148
+>- Watchers:	774
+>- Last updated: 2026-04-14
+
+- [mritopng](https://github.com/danishm/mritopng)
+>- A simple python module to make it easy to batch convert DICOM files to PNG images.
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: dicom, dicom-converter, dicom-images, medical, medical-images, png, python
+>- Forks:	53 
+>- Issues:	5
+>- Watchers:	145
+>- Last updated: 2026-03-25
+
+### 3D-Printing <a name="3d-printing"></a>
+- [Slicer](https://github.com/Slicer/Slicer)
+>- Multi-platform, free open source software for visualization and image computing.
+
+>- License: Other
+>- Languages: `C++`
+>- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
+>- Forks:	722 
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
+
+### 3D-Slicer <a name="3d-slicer"></a>
+- [Slicer](https://github.com/Slicer/Slicer)
+>- Multi-platform, free open source software for visualization and image computing.
+
+>- License: Other
+>- Languages: `C++`
+>- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
+>- Forks:	722 
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
+
+### Computed-Tomography <a name="computed-tomography"></a>
+- [Slicer](https://github.com/Slicer/Slicer)
+>- Multi-platform, free open source software for visualization and image computing.
+
+>- License: Other
+>- Languages: `C++`
+>- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
+>- Forks:	722 
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
+
+### Image-Guided-Therapy <a name="image-guided-therapy"></a>
+- [Slicer](https://github.com/Slicer/Slicer)
+>- Multi-platform, free open source software for visualization and image computing.
+
+>- License: Other
+>- Languages: `C++`
+>- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
+>- Forks:	722 
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
+
+### Kitware <a name="kitware"></a>
+- [Slicer](https://github.com/Slicer/Slicer)
+>- Multi-platform, free open source software for visualization and image computing.
+
+>- License: Other
+>- Languages: `C++`
+>- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
+>- Forks:	722 
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
+
+### National-Institutes-Of-Health <a name="national-institutes-of-health"></a>
+- [Slicer](https://github.com/Slicer/Slicer)
+>- Multi-platform, free open source software for visualization and image computing.
+
+>- License: Other
+>- Languages: `C++`
+>- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
+>- Forks:	722 
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
+
+### Nih <a name="nih"></a>
+- [Slicer](https://github.com/Slicer/Slicer)
+>- Multi-platform, free open source software for visualization and image computing.
+
+>- License: Other
+>- Languages: `C++`
+>- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
+>- Forks:	722 
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
+
+### Qt <a name="qt"></a>
+- [Slicer](https://github.com/Slicer/Slicer)
+>- Multi-platform, free open source software for visualization and image computing.
+
+>- License: Other
+>- Languages: `C++`
+>- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
+>- Forks:	722 
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
+
+### Tcia-Dac <a name="tcia-dac"></a>
+- [Slicer](https://github.com/Slicer/Slicer)
+>- Multi-platform, free open source software for visualization and image computing.
+
+>- License: Other
+>- Languages: `C++`
+>- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
+>- Forks:	722 
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
+
+### Vtk <a name="vtk"></a>
+- [Slicer](https://github.com/Slicer/Slicer)
+>- Multi-platform, free open source software for visualization and image computing.
+
+>- License: Other
+>- Languages: `C++`
+>- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
+>- Forks:	722 
+>- Issues:	663
+>- Watchers:	2427
+>- Last updated: 2026-04-27
+
+### Quality-Reporter <a name="quality-reporter"></a>
+- [mriqc](https://github.com/nipreps/mriqc)
+>- Automated Quality Control and visual reports for Quality Assessment of structural (T1w, T2w) and functional MRI of the brain
 
 >- License: Apache License 2.0
 >- Languages: `Python`
->- Tags: image-processing, mri, mri-phantoms, python, qa, quality-assurance
->- Forks:	13 
->- Issues:	45
->- Watchers:	30
->- Last updated: 2026-04-24
+>- Tags: machine-learning, mri, neuroimaging, quality-control, quality-reporter
+>- Forks:	138 
+>- Issues:	91
+>- Watchers:	356
+>- Last updated: 2026-04-25
 
-- [mrQA](https://github.com/Open-Minds-Lab/mrQA)
->- mrQA: tools for quality assurance in medical imaging datasets, including protocol compliance
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: brain, ismrm, mr-image, mri, mri-brain, mri-images, neuroimaging, neuroscience, niqc, qa, quality-assurance, quality-control
->- Forks:	6 
->- Issues:	38
->- Watchers:	14
->- Last updated: 2026-01-30
-
-### 3D-Reconstruction <a name="3d-reconstruction"></a>
-- [NeSVoR](https://github.com/daviddmc/NeSVoR)
->- NeSVoR is a package for GPU-accelerated slice-to-volume reconstruction.
+### Cuda <a name="cuda"></a>
+- [disimpy](https://github.com/kerkelae/disimpy)
+>- Massively parallel Monte Carlo diffusion MR simulator written in Python.
 
 >- License: MIT License
 >- Languages: `Python`
->- Tags: 3d-reconstruction, 3d-visualization, deep-learning, image-reconstruction, image-registration, implicit-neural-representation, medical-imaging, mri, nerf, neural-network, neural-rendering, pytorch, segmentation, super-resolution, transformers
->- Forks:	24 
->- Issues:	7
->- Watchers:	105
->- Last updated: 2026-04-20
+>- Tags: cuda, diffusion-mri, gpu-computing, monte-carlo-simulation
+>- Forks:	9 
+>- Issues:	6
+>- Watchers:	29
+>- Last updated: 2026-03-28
 
-### 3D-Visualization <a name="3d-visualization"></a>
-- [NeSVoR](https://github.com/daviddmc/NeSVoR)
->- NeSVoR is a package for GPU-accelerated slice-to-volume reconstruction.
-
->- License: MIT License
->- Languages: `Python`
->- Tags: 3d-reconstruction, 3d-visualization, deep-learning, image-reconstruction, image-registration, implicit-neural-representation, medical-imaging, mri, nerf, neural-network, neural-rendering, pytorch, segmentation, super-resolution, transformers
->- Forks:	24 
->- Issues:	7
->- Watchers:	105
->- Last updated: 2026-04-20
-
-### Implicit-Neural-Representation <a name="implicit-neural-representation"></a>
-- [NeSVoR](https://github.com/daviddmc/NeSVoR)
->- NeSVoR is a package for GPU-accelerated slice-to-volume reconstruction.
+### Gpu-Computing <a name="gpu-computing"></a>
+- [disimpy](https://github.com/kerkelae/disimpy)
+>- Massively parallel Monte Carlo diffusion MR simulator written in Python.
 
 >- License: MIT License
 >- Languages: `Python`
->- Tags: 3d-reconstruction, 3d-visualization, deep-learning, image-reconstruction, image-registration, implicit-neural-representation, medical-imaging, mri, nerf, neural-network, neural-rendering, pytorch, segmentation, super-resolution, transformers
->- Forks:	24 
->- Issues:	7
->- Watchers:	105
->- Last updated: 2026-04-20
+>- Tags: cuda, diffusion-mri, gpu-computing, monte-carlo-simulation
+>- Forks:	9 
+>- Issues:	6
+>- Watchers:	29
+>- Last updated: 2026-03-28
 
-### Nerf <a name="nerf"></a>
-- [NeSVoR](https://github.com/daviddmc/NeSVoR)
->- NeSVoR is a package for GPU-accelerated slice-to-volume reconstruction.
-
->- License: MIT License
->- Languages: `Python`
->- Tags: 3d-reconstruction, 3d-visualization, deep-learning, image-reconstruction, image-registration, implicit-neural-representation, medical-imaging, mri, nerf, neural-network, neural-rendering, pytorch, segmentation, super-resolution, transformers
->- Forks:	24 
->- Issues:	7
->- Watchers:	105
->- Last updated: 2026-04-20
-
-### Neural-Network <a name="neural-network"></a>
-- [NeSVoR](https://github.com/daviddmc/NeSVoR)
->- NeSVoR is a package for GPU-accelerated slice-to-volume reconstruction.
+### Monte-Carlo-Simulation <a name="monte-carlo-simulation"></a>
+- [disimpy](https://github.com/kerkelae/disimpy)
+>- Massively parallel Monte Carlo diffusion MR simulator written in Python.
 
 >- License: MIT License
 >- Languages: `Python`
->- Tags: 3d-reconstruction, 3d-visualization, deep-learning, image-reconstruction, image-registration, implicit-neural-representation, medical-imaging, mri, nerf, neural-network, neural-rendering, pytorch, segmentation, super-resolution, transformers
->- Forks:	24 
->- Issues:	7
->- Watchers:	105
->- Last updated: 2026-04-20
+>- Tags: cuda, diffusion-mri, gpu-computing, monte-carlo-simulation
+>- Forks:	9 
+>- Issues:	6
+>- Watchers:	29
+>- Last updated: 2026-03-28
 
-### Neural-Rendering <a name="neural-rendering"></a>
-- [NeSVoR](https://github.com/daviddmc/NeSVoR)
->- NeSVoR is a package for GPU-accelerated slice-to-volume reconstruction.
-
->- License: MIT License
->- Languages: `Python`
->- Tags: 3d-reconstruction, 3d-visualization, deep-learning, image-reconstruction, image-registration, implicit-neural-representation, medical-imaging, mri, nerf, neural-network, neural-rendering, pytorch, segmentation, super-resolution, transformers
->- Forks:	24 
->- Issues:	7
->- Watchers:	105
->- Last updated: 2026-04-20
-
-### Transformers <a name="transformers"></a>
-- [NeSVoR](https://github.com/daviddmc/NeSVoR)
->- NeSVoR is a package for GPU-accelerated slice-to-volume reconstruction.
+### 3D-Segmentation <a name="3d-segmentation"></a>
+- [brainchop](https://github.com/neuroneural/brainchop)
+>- Brainchop: In-browser 3D MRI rendering and segmentation
 
 >- License: MIT License
->- Languages: `Python`
->- Tags: 3d-reconstruction, 3d-visualization, deep-learning, image-reconstruction, image-registration, implicit-neural-representation, medical-imaging, mri, nerf, neural-network, neural-rendering, pytorch, segmentation, super-resolution, transformers
->- Forks:	24 
->- Issues:	7
->- Watchers:	105
->- Last updated: 2026-04-20
+>- Languages: `Javascript`
+>- Tags: 3d-segmentation, deep-learning, frontend-app, javascript, medical-imaging, mri, mri-segmentation, neuroimaging, pyodide, tensorflowjs, three-js
+>- Forks:	62 
+>- Issues:	8
+>- Watchers:	525
+>- Last updated: 2026-04-19
+
+### Frontend-App <a name="frontend-app"></a>
+- [brainchop](https://github.com/neuroneural/brainchop)
+>- Brainchop: In-browser 3D MRI rendering and segmentation
+
+>- License: MIT License
+>- Languages: `Javascript`
+>- Tags: 3d-segmentation, deep-learning, frontend-app, javascript, medical-imaging, mri, mri-segmentation, neuroimaging, pyodide, tensorflowjs, three-js
+>- Forks:	62 
+>- Issues:	8
+>- Watchers:	525
+>- Last updated: 2026-04-19
+
+### Javascript <a name="javascript"></a>
+- [brainchop](https://github.com/neuroneural/brainchop)
+>- Brainchop: In-browser 3D MRI rendering and segmentation
+
+>- License: MIT License
+>- Languages: `Javascript`
+>- Tags: 3d-segmentation, deep-learning, frontend-app, javascript, medical-imaging, mri, mri-segmentation, neuroimaging, pyodide, tensorflowjs, three-js
+>- Forks:	62 
+>- Issues:	8
+>- Watchers:	525
+>- Last updated: 2026-04-19
+
+### Mri-Segmentation <a name="mri-segmentation"></a>
+- [brainchop](https://github.com/neuroneural/brainchop)
+>- Brainchop: In-browser 3D MRI rendering and segmentation
+
+>- License: MIT License
+>- Languages: `Javascript`
+>- Tags: 3d-segmentation, deep-learning, frontend-app, javascript, medical-imaging, mri, mri-segmentation, neuroimaging, pyodide, tensorflowjs, three-js
+>- Forks:	62 
+>- Issues:	8
+>- Watchers:	525
+>- Last updated: 2026-04-19
+
+### Pyodide <a name="pyodide"></a>
+- [brainchop](https://github.com/neuroneural/brainchop)
+>- Brainchop: In-browser 3D MRI rendering and segmentation
+
+>- License: MIT License
+>- Languages: `Javascript`
+>- Tags: 3d-segmentation, deep-learning, frontend-app, javascript, medical-imaging, mri, mri-segmentation, neuroimaging, pyodide, tensorflowjs, three-js
+>- Forks:	62 
+>- Issues:	8
+>- Watchers:	525
+>- Last updated: 2026-04-19
+
+### Tensorflowjs <a name="tensorflowjs"></a>
+- [brainchop](https://github.com/neuroneural/brainchop)
+>- Brainchop: In-browser 3D MRI rendering and segmentation
+
+>- License: MIT License
+>- Languages: `Javascript`
+>- Tags: 3d-segmentation, deep-learning, frontend-app, javascript, medical-imaging, mri, mri-segmentation, neuroimaging, pyodide, tensorflowjs, three-js
+>- Forks:	62 
+>- Issues:	8
+>- Watchers:	525
+>- Last updated: 2026-04-19
+
+### Three-Js <a name="three-js"></a>
+- [brainchop](https://github.com/neuroneural/brainchop)
+>- Brainchop: In-browser 3D MRI rendering and segmentation
+
+>- License: MIT License
+>- Languages: `Javascript`
+>- Tags: 3d-segmentation, deep-learning, frontend-app, javascript, medical-imaging, mri, mri-segmentation, neuroimaging, pyodide, tensorflowjs, three-js
+>- Forks:	62 
+>- Issues:	8
+>- Watchers:	525
+>- Last updated: 2026-04-19
 
 ### 3D-Convolutional-Network <a name="3d-convolutional-network"></a>
 - [MedicalZooPytorch](https://github.com/black0017/MedicalZooPytorch)
@@ -2603,8 +2771,8 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: 3d-convolutional-network, brats2018, brats2019, deep-learning, densenet, iseg, iseg-challenge, medical-image-processing, medical-image-segmentation, medical-imaging, mrbrains18, pytorch, resnet, segmentation, segmentation-models, unet, unet-image-segmentation
 >- Forks:	304 
 >- Issues:	21
->- Watchers:	1909
->- Last updated: 2026-04-24
+>- Watchers:	1910
+>- Last updated: 2026-04-27
 
 ### Brats2018 <a name="brats2018"></a>
 - [MedicalZooPytorch](https://github.com/black0017/MedicalZooPytorch)
@@ -2615,8 +2783,8 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: 3d-convolutional-network, brats2018, brats2019, deep-learning, densenet, iseg, iseg-challenge, medical-image-processing, medical-image-segmentation, medical-imaging, mrbrains18, pytorch, resnet, segmentation, segmentation-models, unet, unet-image-segmentation
 >- Forks:	304 
 >- Issues:	21
->- Watchers:	1909
->- Last updated: 2026-04-24
+>- Watchers:	1910
+>- Last updated: 2026-04-27
 
 ### Brats2019 <a name="brats2019"></a>
 - [MedicalZooPytorch](https://github.com/black0017/MedicalZooPytorch)
@@ -2627,8 +2795,8 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: 3d-convolutional-network, brats2018, brats2019, deep-learning, densenet, iseg, iseg-challenge, medical-image-processing, medical-image-segmentation, medical-imaging, mrbrains18, pytorch, resnet, segmentation, segmentation-models, unet, unet-image-segmentation
 >- Forks:	304 
 >- Issues:	21
->- Watchers:	1909
->- Last updated: 2026-04-24
+>- Watchers:	1910
+>- Last updated: 2026-04-27
 
 ### Densenet <a name="densenet"></a>
 - [MedicalZooPytorch](https://github.com/black0017/MedicalZooPytorch)
@@ -2639,8 +2807,8 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: 3d-convolutional-network, brats2018, brats2019, deep-learning, densenet, iseg, iseg-challenge, medical-image-processing, medical-image-segmentation, medical-imaging, mrbrains18, pytorch, resnet, segmentation, segmentation-models, unet, unet-image-segmentation
 >- Forks:	304 
 >- Issues:	21
->- Watchers:	1909
->- Last updated: 2026-04-24
+>- Watchers:	1910
+>- Last updated: 2026-04-27
 
 ### Iseg <a name="iseg"></a>
 - [MedicalZooPytorch](https://github.com/black0017/MedicalZooPytorch)
@@ -2651,8 +2819,8 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: 3d-convolutional-network, brats2018, brats2019, deep-learning, densenet, iseg, iseg-challenge, medical-image-processing, medical-image-segmentation, medical-imaging, mrbrains18, pytorch, resnet, segmentation, segmentation-models, unet, unet-image-segmentation
 >- Forks:	304 
 >- Issues:	21
->- Watchers:	1909
->- Last updated: 2026-04-24
+>- Watchers:	1910
+>- Last updated: 2026-04-27
 
 ### Iseg-Challenge <a name="iseg-challenge"></a>
 - [MedicalZooPytorch](https://github.com/black0017/MedicalZooPytorch)
@@ -2663,8 +2831,8 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: 3d-convolutional-network, brats2018, brats2019, deep-learning, densenet, iseg, iseg-challenge, medical-image-processing, medical-image-segmentation, medical-imaging, mrbrains18, pytorch, resnet, segmentation, segmentation-models, unet, unet-image-segmentation
 >- Forks:	304 
 >- Issues:	21
->- Watchers:	1909
->- Last updated: 2026-04-24
+>- Watchers:	1910
+>- Last updated: 2026-04-27
 
 ### Medical-Image-Segmentation <a name="medical-image-segmentation"></a>
 - [MedicalZooPytorch](https://github.com/black0017/MedicalZooPytorch)
@@ -2675,8 +2843,8 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: 3d-convolutional-network, brats2018, brats2019, deep-learning, densenet, iseg, iseg-challenge, medical-image-processing, medical-image-segmentation, medical-imaging, mrbrains18, pytorch, resnet, segmentation, segmentation-models, unet, unet-image-segmentation
 >- Forks:	304 
 >- Issues:	21
->- Watchers:	1909
->- Last updated: 2026-04-24
+>- Watchers:	1910
+>- Last updated: 2026-04-27
 
 ### Mrbrains18 <a name="mrbrains18"></a>
 - [MedicalZooPytorch](https://github.com/black0017/MedicalZooPytorch)
@@ -2687,8 +2855,8 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: 3d-convolutional-network, brats2018, brats2019, deep-learning, densenet, iseg, iseg-challenge, medical-image-processing, medical-image-segmentation, medical-imaging, mrbrains18, pytorch, resnet, segmentation, segmentation-models, unet, unet-image-segmentation
 >- Forks:	304 
 >- Issues:	21
->- Watchers:	1909
->- Last updated: 2026-04-24
+>- Watchers:	1910
+>- Last updated: 2026-04-27
 
 ### Resnet <a name="resnet"></a>
 - [MedicalZooPytorch](https://github.com/black0017/MedicalZooPytorch)
@@ -2699,8 +2867,8 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: 3d-convolutional-network, brats2018, brats2019, deep-learning, densenet, iseg, iseg-challenge, medical-image-processing, medical-image-segmentation, medical-imaging, mrbrains18, pytorch, resnet, segmentation, segmentation-models, unet, unet-image-segmentation
 >- Forks:	304 
 >- Issues:	21
->- Watchers:	1909
->- Last updated: 2026-04-24
+>- Watchers:	1910
+>- Last updated: 2026-04-27
 
 ### Segmentation-Models <a name="segmentation-models"></a>
 - [MedicalZooPytorch](https://github.com/black0017/MedicalZooPytorch)
@@ -2711,8 +2879,8 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: 3d-convolutional-network, brats2018, brats2019, deep-learning, densenet, iseg, iseg-challenge, medical-image-processing, medical-image-segmentation, medical-imaging, mrbrains18, pytorch, resnet, segmentation, segmentation-models, unet, unet-image-segmentation
 >- Forks:	304 
 >- Issues:	21
->- Watchers:	1909
->- Last updated: 2026-04-24
+>- Watchers:	1910
+>- Last updated: 2026-04-27
 
 ### Unet <a name="unet"></a>
 - [MedicalZooPytorch](https://github.com/black0017/MedicalZooPytorch)
@@ -2723,8 +2891,8 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: 3d-convolutional-network, brats2018, brats2019, deep-learning, densenet, iseg, iseg-challenge, medical-image-processing, medical-image-segmentation, medical-imaging, mrbrains18, pytorch, resnet, segmentation, segmentation-models, unet, unet-image-segmentation
 >- Forks:	304 
 >- Issues:	21
->- Watchers:	1909
->- Last updated: 2026-04-24
+>- Watchers:	1910
+>- Last updated: 2026-04-27
 
 ### Unet-Image-Segmentation <a name="unet-image-segmentation"></a>
 - [MedicalZooPytorch](https://github.com/black0017/MedicalZooPytorch)
@@ -2735,8 +2903,464 @@ To add a project, add the project url to the `urls.toml` file.
 >- Tags: 3d-convolutional-network, brats2018, brats2019, deep-learning, densenet, iseg, iseg-challenge, medical-image-processing, medical-image-segmentation, medical-imaging, mrbrains18, pytorch, resnet, segmentation, segmentation-models, unet, unet-image-segmentation
 >- Forks:	304 
 >- Issues:	21
->- Watchers:	1909
+>- Watchers:	1910
+>- Last updated: 2026-04-27
+
+### Cortical-Thickness <a name="cortical-thickness"></a>
+- [DL-DiReCT](https://github.com/SCAN-NRAD/DL-DiReCT)
+>- DL+DiReCT - Direct Cortical Thickness Estimation using Deep Learning-based Anatomy Segmentation and Cortex Parcellation
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `Python`
+>- Tags: cortical-thickness, deep-learning, morphometry, mri
+>- Forks:	7 
+>- Issues:	4
+>- Watchers:	31
+>- Last updated: 2026-03-20
+
+### Morphometry <a name="morphometry"></a>
+- [DL-DiReCT](https://github.com/SCAN-NRAD/DL-DiReCT)
+>- DL+DiReCT - Direct Cortical Thickness Estimation using Deep Learning-based Anatomy Segmentation and Cortex Parcellation
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `Python`
+>- Tags: cortical-thickness, deep-learning, morphometry, mri
+>- Forks:	7 
+>- Issues:	4
+>- Watchers:	31
+>- Last updated: 2026-03-20
+
+### Fitting <a name="fitting"></a>
+- [vespa](https://github.com/vespa-mrs/vespa)
+>- Python tools for Magnetic Resonance Spectroscopy - Pulses, Simulation and Analysis
+
+>- License: Other
+>- Languages: `Python`
+>- Tags: fitting, mrs, python, rf-pulse, simulation, spectroscopy, wxpython
+>- Forks:	6 
+>- Issues:	6
+>- Watchers:	12
+>- Last updated: 2026-03-30
+
+### Mrs <a name="mrs"></a>
+- [vespa](https://github.com/vespa-mrs/vespa)
+>- Python tools for Magnetic Resonance Spectroscopy - Pulses, Simulation and Analysis
+
+>- License: Other
+>- Languages: `Python`
+>- Tags: fitting, mrs, python, rf-pulse, simulation, spectroscopy, wxpython
+>- Forks:	6 
+>- Issues:	6
+>- Watchers:	12
+>- Last updated: 2026-03-30
+
+### Rf-Pulse <a name="rf-pulse"></a>
+- [vespa](https://github.com/vespa-mrs/vespa)
+>- Python tools for Magnetic Resonance Spectroscopy - Pulses, Simulation and Analysis
+
+>- License: Other
+>- Languages: `Python`
+>- Tags: fitting, mrs, python, rf-pulse, simulation, spectroscopy, wxpython
+>- Forks:	6 
+>- Issues:	6
+>- Watchers:	12
+>- Last updated: 2026-03-30
+
+### Spectroscopy <a name="spectroscopy"></a>
+- [vespa](https://github.com/vespa-mrs/vespa)
+>- Python tools for Magnetic Resonance Spectroscopy - Pulses, Simulation and Analysis
+
+>- License: Other
+>- Languages: `Python`
+>- Tags: fitting, mrs, python, rf-pulse, simulation, spectroscopy, wxpython
+>- Forks:	6 
+>- Issues:	6
+>- Watchers:	12
+>- Last updated: 2026-03-30
+
+### Wxpython <a name="wxpython"></a>
+- [vespa](https://github.com/vespa-mrs/vespa)
+>- Python tools for Magnetic Resonance Spectroscopy - Pulses, Simulation and Analysis
+
+>- License: Other
+>- Languages: `Python`
+>- Tags: fitting, mrs, python, rf-pulse, simulation, spectroscopy, wxpython
+>- Forks:	6 
+>- Issues:	6
+>- Watchers:	12
+>- Last updated: 2026-03-30
+
+### Freesurfer <a name="freesurfer"></a>
+- [freesurfer](https://github.com/freesurfer/freesurfer)
+>- Neuroimaging analysis and visualization suite
+
+>- License: Other
+>- Languages: `C++`
+>- Tags: freesurfer, lcn, mri, neuroimaging
+>- Forks:	287 
+>- Issues:	13
+>- Watchers:	827
+>- Last updated: 2026-04-27
+
+### Lcn <a name="lcn"></a>
+- [freesurfer](https://github.com/freesurfer/freesurfer)
+>- Neuroimaging analysis and visualization suite
+
+>- License: Other
+>- Languages: `C++`
+>- Tags: freesurfer, lcn, mri, neuroimaging
+>- Forks:	287 
+>- Issues:	13
+>- Watchers:	827
+>- Last updated: 2026-04-27
+
+### Fcm <a name="fcm"></a>
+- [intensity-normalization](https://github.com/jcreinhold/intensity-normalization)
+>- Normalize MR image intensities in Python
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: fcm, harmonization, intensity-normalization, mri, neuroimaging, normalization, standardization, whitestripe, zscore
+>- Forks:	58 
+>- Issues:	0
+>- Watchers:	342
+>- Last updated: 2026-04-20
+
+### Harmonization <a name="harmonization"></a>
+- [intensity-normalization](https://github.com/jcreinhold/intensity-normalization)
+>- Normalize MR image intensities in Python
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: fcm, harmonization, intensity-normalization, mri, neuroimaging, normalization, standardization, whitestripe, zscore
+>- Forks:	58 
+>- Issues:	0
+>- Watchers:	342
+>- Last updated: 2026-04-20
+
+### Intensity-Normalization <a name="intensity-normalization"></a>
+- [intensity-normalization](https://github.com/jcreinhold/intensity-normalization)
+>- Normalize MR image intensities in Python
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: fcm, harmonization, intensity-normalization, mri, neuroimaging, normalization, standardization, whitestripe, zscore
+>- Forks:	58 
+>- Issues:	0
+>- Watchers:	342
+>- Last updated: 2026-04-20
+
+### Normalization <a name="normalization"></a>
+- [intensity-normalization](https://github.com/jcreinhold/intensity-normalization)
+>- Normalize MR image intensities in Python
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: fcm, harmonization, intensity-normalization, mri, neuroimaging, normalization, standardization, whitestripe, zscore
+>- Forks:	58 
+>- Issues:	0
+>- Watchers:	342
+>- Last updated: 2026-04-20
+
+### Standardization <a name="standardization"></a>
+- [intensity-normalization](https://github.com/jcreinhold/intensity-normalization)
+>- Normalize MR image intensities in Python
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: fcm, harmonization, intensity-normalization, mri, neuroimaging, normalization, standardization, whitestripe, zscore
+>- Forks:	58 
+>- Issues:	0
+>- Watchers:	342
+>- Last updated: 2026-04-20
+
+### Whitestripe <a name="whitestripe"></a>
+- [intensity-normalization](https://github.com/jcreinhold/intensity-normalization)
+>- Normalize MR image intensities in Python
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: fcm, harmonization, intensity-normalization, mri, neuroimaging, normalization, standardization, whitestripe, zscore
+>- Forks:	58 
+>- Issues:	0
+>- Watchers:	342
+>- Last updated: 2026-04-20
+
+### Zscore <a name="zscore"></a>
+- [intensity-normalization](https://github.com/jcreinhold/intensity-normalization)
+>- Normalize MR image intensities in Python
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: fcm, harmonization, intensity-normalization, mri, neuroimaging, normalization, standardization, whitestripe, zscore
+>- Forks:	58 
+>- Issues:	0
+>- Watchers:	342
+>- Last updated: 2026-04-20
+
+### Alzheimer-Disease <a name="alzheimer-disease"></a>
+- [clinicadl](https://github.com/aramis-lab/clinicadl)
+>- Framework for the reproducible processing of neuroimaging data with deep learning methods
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: alzheimer-disease, brain-imaging, convolutional-neural-network, deep-learning, medical-imaging, neuroimaging, python, pytorch
+>- Forks:	60 
+>- Issues:	54
+>- Watchers:	178
+>- Last updated: 2026-03-10
+
+### Convolutional-Neural-Network <a name="convolutional-neural-network"></a>
+- [clinicadl](https://github.com/aramis-lab/clinicadl)
+>- Framework for the reproducible processing of neuroimaging data with deep learning methods
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: alzheimer-disease, brain-imaging, convolutional-neural-network, deep-learning, medical-imaging, neuroimaging, python, pytorch
+>- Forks:	60 
+>- Issues:	54
+>- Watchers:	178
+>- Last updated: 2026-03-10
+
+### Mri-Sequences <a name="mri-sequences"></a>
+- [pypulseq](https://github.com/imr-framework/pypulseq)
+>- Pulseq in Python
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: mri, mri-sequences, pulse-sequences, pulseq, python
+>- Forks:	88 
+>- Issues:	35
+>- Watchers:	198
+>- Last updated: 2026-04-27
+
+### Pulse-Sequences <a name="pulse-sequences"></a>
+- [pypulseq](https://github.com/imr-framework/pypulseq)
+>- Pulseq in Python
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: mri, mri-sequences, pulse-sequences, pulseq, python
+>- Forks:	88 
+>- Issues:	35
+>- Watchers:	198
+>- Last updated: 2026-04-27
+
+### Pulseq <a name="pulseq"></a>
+- [pypulseq](https://github.com/imr-framework/pypulseq)
+>- Pulseq in Python
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: mri, mri-sequences, pulse-sequences, pulseq, python
+>- Forks:	88 
+>- Issues:	35
+>- Watchers:	198
+>- Last updated: 2026-04-27
+
+### Image-Segmentation <a name="image-segmentation"></a>
+- [smriprep](https://github.com/nipreps/smriprep)
+>- Structural MRI PREProcessing (sMRIPrep) workflows for NIPreps (NeuroImaging PREProcessing tools)
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: image-processing, image-registration, image-segmentation, mri, structural-mri, surface-reconstruction
+>- Forks:	46 
+>- Issues:	80
+>- Watchers:	163
 >- Last updated: 2026-04-24
+
+### Structural-Mri <a name="structural-mri"></a>
+- [smriprep](https://github.com/nipreps/smriprep)
+>- Structural MRI PREProcessing (sMRIPrep) workflows for NIPreps (NeuroImaging PREProcessing tools)
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: image-processing, image-registration, image-segmentation, mri, structural-mri, surface-reconstruction
+>- Forks:	46 
+>- Issues:	80
+>- Watchers:	163
+>- Last updated: 2026-04-24
+
+### Surface-Reconstruction <a name="surface-reconstruction"></a>
+- [smriprep](https://github.com/nipreps/smriprep)
+>- Structural MRI PREProcessing (sMRIPrep) workflows for NIPreps (NeuroImaging PREProcessing tools)
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: image-processing, image-registration, image-segmentation, mri, structural-mri, surface-reconstruction
+>- Forks:	46 
+>- Issues:	80
+>- Watchers:	163
+>- Last updated: 2026-04-24
+
+### Denoising-Images <a name="denoising-images"></a>
+- [qsiprep](https://github.com/PennLINC/qsiprep)
+>- Preprocessing of diffusion MRI
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `Python`
+>- Tags: bids, denoising-images, diffusion-mri, distortion-correction, motion-correction, pipelines
+>- Forks:	62 
+>- Issues:	110
+>- Watchers:	180
+>- Last updated: 2026-04-24
+
+### Distortion-Correction <a name="distortion-correction"></a>
+- [qsiprep](https://github.com/PennLINC/qsiprep)
+>- Preprocessing of diffusion MRI
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `Python`
+>- Tags: bids, denoising-images, diffusion-mri, distortion-correction, motion-correction, pipelines
+>- Forks:	62 
+>- Issues:	110
+>- Watchers:	180
+>- Last updated: 2026-04-24
+
+### Motion-Correction <a name="motion-correction"></a>
+- [qsiprep](https://github.com/PennLINC/qsiprep)
+>- Preprocessing of diffusion MRI
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `Python`
+>- Tags: bids, denoising-images, diffusion-mri, distortion-correction, motion-correction, pipelines
+>- Forks:	62 
+>- Issues:	110
+>- Watchers:	180
+>- Last updated: 2026-04-24
+
+### Pipelines <a name="pipelines"></a>
+- [qsiprep](https://github.com/PennLINC/qsiprep)
+>- Preprocessing of diffusion MRI
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `Python`
+>- Tags: bids, denoising-images, diffusion-mri, distortion-correction, motion-correction, pipelines
+>- Forks:	62 
+>- Issues:	110
+>- Watchers:	180
+>- Last updated: 2026-04-24
+
+### Cardiac <a name="cardiac"></a>
+- [KomaMRI.jl](https://github.com/JuliaHealth/KomaMRI.jl)
+>- Koma is a Pulseq-compatible framework to efficiently simulate Magnetic Resonance Imaging (MRI) acquisitions. The main focus of this package is to simulate general scenarios that could arise in pulse sequence development.
+
+>- License: MIT License
+>- Languages: `Julia`
+>- Tags: cardiac, diffusion, diffusion-mri, gpu-acceleration, mri, simulation
+>- Forks:	36 
+>- Issues:	104
+>- Watchers:	198
+>- Last updated: 2026-04-27
+
+### Diffusion <a name="diffusion"></a>
+- [KomaMRI.jl](https://github.com/JuliaHealth/KomaMRI.jl)
+>- Koma is a Pulseq-compatible framework to efficiently simulate Magnetic Resonance Imaging (MRI) acquisitions. The main focus of this package is to simulate general scenarios that could arise in pulse sequence development.
+
+>- License: MIT License
+>- Languages: `Julia`
+>- Tags: cardiac, diffusion, diffusion-mri, gpu-acceleration, mri, simulation
+>- Forks:	36 
+>- Issues:	104
+>- Watchers:	198
+>- Last updated: 2026-04-27
+
+### Gpu-Acceleration <a name="gpu-acceleration"></a>
+- [KomaMRI.jl](https://github.com/JuliaHealth/KomaMRI.jl)
+>- Koma is a Pulseq-compatible framework to efficiently simulate Magnetic Resonance Imaging (MRI) acquisitions. The main focus of this package is to simulate general scenarios that could arise in pulse sequence development.
+
+>- License: MIT License
+>- Languages: `Julia`
+>- Tags: cardiac, diffusion, diffusion-mri, gpu-acceleration, mri, simulation
+>- Forks:	36 
+>- Issues:	104
+>- Watchers:	198
+>- Last updated: 2026-04-27
+
+### Ai <a name="ai"></a>
+- [quickNAT_pytorch](https://github.com/ai-med/quickNAT_pytorch)
+>- PyTorch Implementation of QuickNAT and Bayesian QuickNAT, a fast brain MRI segmentation framework with segmentation Quality control using structure-wise uncertainty
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: ai, bayesian, biomarkers, brain-imaging, computer-vision, convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, mri-images, neuroanatomy, pytorch, quality-control, segmentation, uncertainty
+>- Forks:	34 
+>- Issues:	7
+>- Watchers:	104
+>- Last updated: 2025-12-03
+
+### Bayesian <a name="bayesian"></a>
+- [quickNAT_pytorch](https://github.com/ai-med/quickNAT_pytorch)
+>- PyTorch Implementation of QuickNAT and Bayesian QuickNAT, a fast brain MRI segmentation framework with segmentation Quality control using structure-wise uncertainty
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: ai, bayesian, biomarkers, brain-imaging, computer-vision, convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, mri-images, neuroanatomy, pytorch, quality-control, segmentation, uncertainty
+>- Forks:	34 
+>- Issues:	7
+>- Watchers:	104
+>- Last updated: 2025-12-03
+
+### Biomarkers <a name="biomarkers"></a>
+- [quickNAT_pytorch](https://github.com/ai-med/quickNAT_pytorch)
+>- PyTorch Implementation of QuickNAT and Bayesian QuickNAT, a fast brain MRI segmentation framework with segmentation Quality control using structure-wise uncertainty
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: ai, bayesian, biomarkers, brain-imaging, computer-vision, convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, mri-images, neuroanatomy, pytorch, quality-control, segmentation, uncertainty
+>- Forks:	34 
+>- Issues:	7
+>- Watchers:	104
+>- Last updated: 2025-12-03
+
+### Neuroanatomy <a name="neuroanatomy"></a>
+- [quickNAT_pytorch](https://github.com/ai-med/quickNAT_pytorch)
+>- PyTorch Implementation of QuickNAT and Bayesian QuickNAT, a fast brain MRI segmentation framework with segmentation Quality control using structure-wise uncertainty
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: ai, bayesian, biomarkers, brain-imaging, computer-vision, convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, mri-images, neuroanatomy, pytorch, quality-control, segmentation, uncertainty
+>- Forks:	34 
+>- Issues:	7
+>- Watchers:	104
+>- Last updated: 2025-12-03
+
+### Uncertainty <a name="uncertainty"></a>
+- [quickNAT_pytorch](https://github.com/ai-med/quickNAT_pytorch)
+>- PyTorch Implementation of QuickNAT and Bayesian QuickNAT, a fast brain MRI segmentation framework with segmentation Quality control using structure-wise uncertainty
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: ai, bayesian, biomarkers, brain-imaging, computer-vision, convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, mri-images, neuroanatomy, pytorch, quality-control, segmentation, uncertainty
+>- Forks:	34 
+>- Issues:	7
+>- Watchers:	104
+>- Last updated: 2025-12-03
+
+### Augmentation <a name="augmentation"></a>
+- [torchio](https://github.com/fepegar/torchio)
+>- Medical imaging processing for AI applications.
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: augmentation, data-augmentation, deep-learning, machine-learning, medical-image-analysis, medical-image-computing, medical-image-processing, python, pytorch
+>- Forks:	262 
+>- Issues:	27
+>- Watchers:	2394
+>- Last updated: 2026-04-26
+
+### Data-Augmentation <a name="data-augmentation"></a>
+- [torchio](https://github.com/fepegar/torchio)
+>- Medical imaging processing for AI applications.
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: augmentation, data-augmentation, deep-learning, machine-learning, medical-image-analysis, medical-image-computing, medical-image-processing, python, pytorch
+>- Forks:	262 
+>- Issues:	27
+>- Watchers:	2394
+>- Last updated: 2026-04-26
 
 ### Fetus <a name="fetus"></a>
 - [AFFIRM](https://github.com/allard-shi/affirm)
@@ -2762,76 +3386,292 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	8
 >- Last updated: 2025-07-27
 
-### Big-Data <a name="big-data"></a>
-- [nipype](https://github.com/nipy/nipype)
->- Workflows and interfaces for neuroimaging packages
+### Brain <a name="brain"></a>
+- [mrQA](https://github.com/Open-Minds-Lab/mrQA)
+>- mrQA: tools for quality assurance in medical imaging datasets, including protocol compliance
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: brain, ismrm, mr-image, mri, mri-brain, mri-images, neuroimaging, neuroscience, niqc, qa, quality-assurance, quality-control
+>- Forks:	6 
+>- Issues:	38
+>- Watchers:	14
+>- Last updated: 2026-01-30
+
+### Ismrm <a name="ismrm"></a>
+- [mrQA](https://github.com/Open-Minds-Lab/mrQA)
+>- mrQA: tools for quality assurance in medical imaging datasets, including protocol compliance
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: brain, ismrm, mr-image, mri, mri-brain, mri-images, neuroimaging, neuroscience, niqc, qa, quality-assurance, quality-control
+>- Forks:	6 
+>- Issues:	38
+>- Watchers:	14
+>- Last updated: 2026-01-30
+
+### Mr-Image <a name="mr-image"></a>
+- [mrQA](https://github.com/Open-Minds-Lab/mrQA)
+>- mrQA: tools for quality assurance in medical imaging datasets, including protocol compliance
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: brain, ismrm, mr-image, mri, mri-brain, mri-images, neuroimaging, neuroscience, niqc, qa, quality-assurance, quality-control
+>- Forks:	6 
+>- Issues:	38
+>- Watchers:	14
+>- Last updated: 2026-01-30
+
+### Mri-Brain <a name="mri-brain"></a>
+- [mrQA](https://github.com/Open-Minds-Lab/mrQA)
+>- mrQA: tools for quality assurance in medical imaging datasets, including protocol compliance
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: brain, ismrm, mr-image, mri, mri-brain, mri-images, neuroimaging, neuroscience, niqc, qa, quality-assurance, quality-control
+>- Forks:	6 
+>- Issues:	38
+>- Watchers:	14
+>- Last updated: 2026-01-30
+
+### Niqc <a name="niqc"></a>
+- [mrQA](https://github.com/Open-Minds-Lab/mrQA)
+>- mrQA: tools for quality assurance in medical imaging datasets, including protocol compliance
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: brain, ismrm, mr-image, mri, mri-brain, mri-images, neuroimaging, neuroscience, niqc, qa, quality-assurance, quality-control
+>- Forks:	6 
+>- Issues:	38
+>- Watchers:	14
+>- Last updated: 2026-01-30
+
+### Fastmri <a name="fastmri"></a>
+- [fastMRI](https://github.com/facebookresearch/fastMRI)
+>- A large-scale dataset of both raw MRI measurements and clinical MRI images.
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: convolutional-neural-networks, deep-learning, fastmri, fastmri-challenge, fastmri-dataset, medical-imaging, mri, mri-reconstruction, pytorch
+>- Forks:	421 
+>- Issues:	18
+>- Watchers:	1520
+>- Last updated: 2026-04-22
+
+### Fastmri-Dataset <a name="fastmri-dataset"></a>
+- [fastMRI](https://github.com/facebookresearch/fastMRI)
+>- A large-scale dataset of both raw MRI measurements and clinical MRI images.
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: convolutional-neural-networks, deep-learning, fastmri, fastmri-challenge, fastmri-dataset, medical-imaging, mri, mri-reconstruction, pytorch
+>- Forks:	421 
+>- Issues:	18
+>- Watchers:	1520
+>- Last updated: 2026-04-22
+
+### Csharp <a name="csharp"></a>
+- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
+>- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
+
+>- License: Apache License 2.0
+>- Languages: `C++`
+>- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
+>- Forks:	228 
+>- Issues:	79
+>- Watchers:	1055
+>- Last updated: 2026-04-23
+
+### Image-Analysis <a name="image-analysis"></a>
+- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
+>- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
+
+>- License: Apache License 2.0
+>- Languages: `C++`
+>- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
+>- Forks:	228 
+>- Issues:	79
+>- Watchers:	1055
+>- Last updated: 2026-04-23
+
+### Java <a name="java"></a>
+- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
+>- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
+
+>- License: Apache License 2.0
+>- Languages: `C++`
+>- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
+>- Forks:	228 
+>- Issues:	79
+>- Watchers:	1055
+>- Last updated: 2026-04-23
+
+### Lua <a name="lua"></a>
+- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
+>- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
+
+>- License: Apache License 2.0
+>- Languages: `C++`
+>- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
+>- Forks:	228 
+>- Issues:	79
+>- Watchers:	1055
+>- Last updated: 2026-04-23
+
+### Ruby <a name="ruby"></a>
+- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
+>- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
+
+>- License: Apache License 2.0
+>- Languages: `C++`
+>- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
+>- Forks:	228 
+>- Issues:	79
+>- Watchers:	1055
+>- Last updated: 2026-04-23
+
+### Simpleitk <a name="simpleitk"></a>
+- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
+>- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
+
+>- License: Apache License 2.0
+>- Languages: `C++`
+>- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
+>- Forks:	228 
+>- Issues:	79
+>- Watchers:	1055
+>- Last updated: 2026-04-23
+
+### Swig <a name="swig"></a>
+- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
+>- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
+
+>- License: Apache License 2.0
+>- Languages: `C++`
+>- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
+>- Forks:	228 
+>- Issues:	79
+>- Watchers:	1055
+>- Last updated: 2026-04-23
+
+### Tcl <a name="tcl"></a>
+- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
+>- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
+
+>- License: Apache License 2.0
+>- Languages: `C++`
+>- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
+>- Forks:	228 
+>- Issues:	79
+>- Watchers:	1055
+>- Last updated: 2026-04-23
+
+### Mri-Phantoms <a name="mri-phantoms"></a>
+- [hazen](https://github.com/GSTT-CSC/hazen)
+>- Quality assurance framework for Magnetic Resonance Imaging
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: image-processing, mri, mri-phantoms, python, qa, quality-assurance
+>- Forks:	13 
+>- Issues:	45
+>- Watchers:	30
+>- Last updated: 2026-04-24
+
+### Analysis <a name="analysis"></a>
+- [DCEMRI.jl](https://github.com/davidssmith/DCEMRI.jl)
+>- World's fastest DCE MRI analysis toolkit
 
 >- License: Other
+>- Languages: `Julia`
+>- Tags: analysis, cancer-imaging-research, dce-mri, julia, mat-files, medical-image-processing, medical-imaging
+>- Forks:	16 
+>- Issues:	5
+>- Watchers:	39
+>- Last updated: 2026-01-12
+
+### Cancer-Imaging-Research <a name="cancer-imaging-research"></a>
+- [DCEMRI.jl](https://github.com/davidssmith/DCEMRI.jl)
+>- World's fastest DCE MRI analysis toolkit
+
+>- License: Other
+>- Languages: `Julia`
+>- Tags: analysis, cancer-imaging-research, dce-mri, julia, mat-files, medical-image-processing, medical-imaging
+>- Forks:	16 
+>- Issues:	5
+>- Watchers:	39
+>- Last updated: 2026-01-12
+
+### Dce-Mri <a name="dce-mri"></a>
+- [DCEMRI.jl](https://github.com/davidssmith/DCEMRI.jl)
+>- World's fastest DCE MRI analysis toolkit
+
+>- License: Other
+>- Languages: `Julia`
+>- Tags: analysis, cancer-imaging-research, dce-mri, julia, mat-files, medical-image-processing, medical-imaging
+>- Forks:	16 
+>- Issues:	5
+>- Watchers:	39
+>- Last updated: 2026-01-12
+
+### Mat-Files <a name="mat-files"></a>
+- [DCEMRI.jl](https://github.com/davidssmith/DCEMRI.jl)
+>- World's fastest DCE MRI analysis toolkit
+
+>- License: Other
+>- Languages: `Julia`
+>- Tags: analysis, cancer-imaging-research, dce-mri, julia, mat-files, medical-image-processing, medical-imaging
+>- Forks:	16 
+>- Issues:	5
+>- Watchers:	39
+>- Last updated: 2026-01-12
+
+### Ml <a name="ml"></a>
+- [tensorflow-mri](https://github.com/mrphys/tensorflow-mri)
+>- A Library of TensorFlow Operators for Computational MRI
+
+>- License: Apache License 2.0
+>- Languages: `Jupyter Notebook`
+>- Tags: machine-learning, magnetic-resonance-imaging, ml, mri, python, tensorflow
+>- Forks:	6 
+>- Issues:	11
+>- Watchers:	49
+>- Last updated: 2026-04-22
+
+### Brain-Mri <a name="brain-mri"></a>
+- [nilearn](https://github.com/nilearn/nilearn)
+>- Machine learning for NeuroImaging in Python
+
+>- License: BSD 3-Clause "New" or "Revised" License
 >- Languages: `Python`
->- Tags: big-data, brain-imaging, brainweb, data-science, dataflow, dataflow-programming, neuroimaging, python, workflow-engine
->- Forks:	544 
->- Issues:	427
->- Watchers:	825
+>- Tags: brain-connectivity, brain-imaging, brain-mri, decoding, fmri, machine-learning, mvpa, neuroimaging, python
+>- Forks:	654 
+>- Issues:	292
+>- Watchers:	1391
 >- Last updated: 2026-04-27
 
-### Brainweb <a name="brainweb"></a>
-- [nipype](https://github.com/nipy/nipype)
->- Workflows and interfaces for neuroimaging packages
+### Decoding <a name="decoding"></a>
+- [nilearn](https://github.com/nilearn/nilearn)
+>- Machine learning for NeuroImaging in Python
 
->- License: Other
+>- License: BSD 3-Clause "New" or "Revised" License
 >- Languages: `Python`
->- Tags: big-data, brain-imaging, brainweb, data-science, dataflow, dataflow-programming, neuroimaging, python, workflow-engine
->- Forks:	544 
->- Issues:	427
->- Watchers:	825
+>- Tags: brain-connectivity, brain-imaging, brain-mri, decoding, fmri, machine-learning, mvpa, neuroimaging, python
+>- Forks:	654 
+>- Issues:	292
+>- Watchers:	1391
 >- Last updated: 2026-04-27
 
-### Data-Science <a name="data-science"></a>
-- [nipype](https://github.com/nipy/nipype)
->- Workflows and interfaces for neuroimaging packages
+### Mvpa <a name="mvpa"></a>
+- [nilearn](https://github.com/nilearn/nilearn)
+>- Machine learning for NeuroImaging in Python
 
->- License: Other
+>- License: BSD 3-Clause "New" or "Revised" License
 >- Languages: `Python`
->- Tags: big-data, brain-imaging, brainweb, data-science, dataflow, dataflow-programming, neuroimaging, python, workflow-engine
->- Forks:	544 
->- Issues:	427
->- Watchers:	825
->- Last updated: 2026-04-27
-
-### Dataflow <a name="dataflow"></a>
-- [nipype](https://github.com/nipy/nipype)
->- Workflows and interfaces for neuroimaging packages
-
->- License: Other
->- Languages: `Python`
->- Tags: big-data, brain-imaging, brainweb, data-science, dataflow, dataflow-programming, neuroimaging, python, workflow-engine
->- Forks:	544 
->- Issues:	427
->- Watchers:	825
->- Last updated: 2026-04-27
-
-### Dataflow-Programming <a name="dataflow-programming"></a>
-- [nipype](https://github.com/nipy/nipype)
->- Workflows and interfaces for neuroimaging packages
-
->- License: Other
->- Languages: `Python`
->- Tags: big-data, brain-imaging, brainweb, data-science, dataflow, dataflow-programming, neuroimaging, python, workflow-engine
->- Forks:	544 
->- Issues:	427
->- Watchers:	825
->- Last updated: 2026-04-27
-
-### Workflow-Engine <a name="workflow-engine"></a>
-- [nipype](https://github.com/nipy/nipype)
->- Workflows and interfaces for neuroimaging packages
-
->- License: Other
->- Languages: `Python`
->- Tags: big-data, brain-imaging, brainweb, data-science, dataflow, dataflow-programming, neuroimaging, python, workflow-engine
->- Forks:	544 
->- Issues:	427
->- Watchers:	825
+>- Tags: brain-connectivity, brain-imaging, brain-mri, decoding, fmri, machine-learning, mvpa, neuroimaging, python
+>- Forks:	654 
+>- Issues:	292
+>- Watchers:	1391
 >- Last updated: 2026-04-27
 
 ### 3D-Mask-Rcnn <a name="3d-mask-rcnn"></a>
@@ -3002,258 +3842,6 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	1352
 >- Last updated: 2026-04-24
 
-### Ai <a name="ai"></a>
-- [quickNAT_pytorch](https://github.com/ai-med/quickNAT_pytorch)
->- PyTorch Implementation of QuickNAT and Bayesian QuickNAT, a fast brain MRI segmentation framework with segmentation Quality control using structure-wise uncertainty
-
->- License: MIT License
->- Languages: `Python`
->- Tags: ai, bayesian, biomarkers, brain-imaging, computer-vision, convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, mri-images, neuroanatomy, pytorch, quality-control, segmentation, uncertainty
->- Forks:	34 
->- Issues:	7
->- Watchers:	104
->- Last updated: 2025-12-03
-
-### Bayesian <a name="bayesian"></a>
-- [quickNAT_pytorch](https://github.com/ai-med/quickNAT_pytorch)
->- PyTorch Implementation of QuickNAT and Bayesian QuickNAT, a fast brain MRI segmentation framework with segmentation Quality control using structure-wise uncertainty
-
->- License: MIT License
->- Languages: `Python`
->- Tags: ai, bayesian, biomarkers, brain-imaging, computer-vision, convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, mri-images, neuroanatomy, pytorch, quality-control, segmentation, uncertainty
->- Forks:	34 
->- Issues:	7
->- Watchers:	104
->- Last updated: 2025-12-03
-
-### Biomarkers <a name="biomarkers"></a>
-- [quickNAT_pytorch](https://github.com/ai-med/quickNAT_pytorch)
->- PyTorch Implementation of QuickNAT and Bayesian QuickNAT, a fast brain MRI segmentation framework with segmentation Quality control using structure-wise uncertainty
-
->- License: MIT License
->- Languages: `Python`
->- Tags: ai, bayesian, biomarkers, brain-imaging, computer-vision, convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, mri-images, neuroanatomy, pytorch, quality-control, segmentation, uncertainty
->- Forks:	34 
->- Issues:	7
->- Watchers:	104
->- Last updated: 2025-12-03
-
-### Neuroanatomy <a name="neuroanatomy"></a>
-- [quickNAT_pytorch](https://github.com/ai-med/quickNAT_pytorch)
->- PyTorch Implementation of QuickNAT and Bayesian QuickNAT, a fast brain MRI segmentation framework with segmentation Quality control using structure-wise uncertainty
-
->- License: MIT License
->- Languages: `Python`
->- Tags: ai, bayesian, biomarkers, brain-imaging, computer-vision, convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, mri-images, neuroanatomy, pytorch, quality-control, segmentation, uncertainty
->- Forks:	34 
->- Issues:	7
->- Watchers:	104
->- Last updated: 2025-12-03
-
-### Uncertainty <a name="uncertainty"></a>
-- [quickNAT_pytorch](https://github.com/ai-med/quickNAT_pytorch)
->- PyTorch Implementation of QuickNAT and Bayesian QuickNAT, a fast brain MRI segmentation framework with segmentation Quality control using structure-wise uncertainty
-
->- License: MIT License
->- Languages: `Python`
->- Tags: ai, bayesian, biomarkers, brain-imaging, computer-vision, convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, mri-images, neuroanatomy, pytorch, quality-control, segmentation, uncertainty
->- Forks:	34 
->- Issues:	7
->- Watchers:	104
->- Last updated: 2025-12-03
-
-### Analysis <a name="analysis"></a>
-- [DCEMRI.jl](https://github.com/davidssmith/DCEMRI.jl)
->- World's fastest DCE MRI analysis toolkit
-
->- License: Other
->- Languages: `Julia`
->- Tags: analysis, cancer-imaging-research, dce-mri, julia, mat-files, medical-image-processing, medical-imaging
->- Forks:	16 
->- Issues:	5
->- Watchers:	39
->- Last updated: 2026-01-12
-
-### Cancer-Imaging-Research <a name="cancer-imaging-research"></a>
-- [DCEMRI.jl](https://github.com/davidssmith/DCEMRI.jl)
->- World's fastest DCE MRI analysis toolkit
-
->- License: Other
->- Languages: `Julia`
->- Tags: analysis, cancer-imaging-research, dce-mri, julia, mat-files, medical-image-processing, medical-imaging
->- Forks:	16 
->- Issues:	5
->- Watchers:	39
->- Last updated: 2026-01-12
-
-### Dce-Mri <a name="dce-mri"></a>
-- [DCEMRI.jl](https://github.com/davidssmith/DCEMRI.jl)
->- World's fastest DCE MRI analysis toolkit
-
->- License: Other
->- Languages: `Julia`
->- Tags: analysis, cancer-imaging-research, dce-mri, julia, mat-files, medical-image-processing, medical-imaging
->- Forks:	16 
->- Issues:	5
->- Watchers:	39
->- Last updated: 2026-01-12
-
-### Mat-Files <a name="mat-files"></a>
-- [DCEMRI.jl](https://github.com/davidssmith/DCEMRI.jl)
->- World's fastest DCE MRI analysis toolkit
-
->- License: Other
->- Languages: `Julia`
->- Tags: analysis, cancer-imaging-research, dce-mri, julia, mat-files, medical-image-processing, medical-imaging
->- Forks:	16 
->- Issues:	5
->- Watchers:	39
->- Last updated: 2026-01-12
-
-### Denoising-Images <a name="denoising-images"></a>
-- [qsiprep](https://github.com/PennLINC/qsiprep)
->- Preprocessing of diffusion MRI
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `Python`
->- Tags: bids, denoising-images, diffusion-mri, distortion-correction, motion-correction, pipelines
->- Forks:	62 
->- Issues:	110
->- Watchers:	180
->- Last updated: 2026-04-24
-
-### Distortion-Correction <a name="distortion-correction"></a>
-- [qsiprep](https://github.com/PennLINC/qsiprep)
->- Preprocessing of diffusion MRI
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `Python`
->- Tags: bids, denoising-images, diffusion-mri, distortion-correction, motion-correction, pipelines
->- Forks:	62 
->- Issues:	110
->- Watchers:	180
->- Last updated: 2026-04-24
-
-### Motion-Correction <a name="motion-correction"></a>
-- [qsiprep](https://github.com/PennLINC/qsiprep)
->- Preprocessing of diffusion MRI
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `Python`
->- Tags: bids, denoising-images, diffusion-mri, distortion-correction, motion-correction, pipelines
->- Forks:	62 
->- Issues:	110
->- Watchers:	180
->- Last updated: 2026-04-24
-
-### Pipelines <a name="pipelines"></a>
-- [qsiprep](https://github.com/PennLINC/qsiprep)
->- Preprocessing of diffusion MRI
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `Python`
->- Tags: bids, denoising-images, diffusion-mri, distortion-correction, motion-correction, pipelines
->- Forks:	62 
->- Issues:	110
->- Watchers:	180
->- Last updated: 2026-04-24
-
-### Complex-Networks <a name="complex-networks"></a>
-- [brainGraph](https://github.com/cwatson/brainGraph)
->- Graph theory analysis of brain MRI data
-
->- License: None
->- Languages: `R`
->- Tags: brain-connectivity, brain-imaging, complex-networks, connectome, connectomics, fmri, graph-theory, mri, network-analysis, neuroimaging, neuroscience, r, statistics, tractography
->- Forks:	54 
->- Issues:	11
->- Watchers:	194
->- Last updated: 2026-04-14
-
-### Connectome <a name="connectome"></a>
-- [brainGraph](https://github.com/cwatson/brainGraph)
->- Graph theory analysis of brain MRI data
-
->- License: None
->- Languages: `R`
->- Tags: brain-connectivity, brain-imaging, complex-networks, connectome, connectomics, fmri, graph-theory, mri, network-analysis, neuroimaging, neuroscience, r, statistics, tractography
->- Forks:	54 
->- Issues:	11
->- Watchers:	194
->- Last updated: 2026-04-14
-
-### Connectomics <a name="connectomics"></a>
-- [brainGraph](https://github.com/cwatson/brainGraph)
->- Graph theory analysis of brain MRI data
-
->- License: None
->- Languages: `R`
->- Tags: brain-connectivity, brain-imaging, complex-networks, connectome, connectomics, fmri, graph-theory, mri, network-analysis, neuroimaging, neuroscience, r, statistics, tractography
->- Forks:	54 
->- Issues:	11
->- Watchers:	194
->- Last updated: 2026-04-14
-
-### Graph-Theory <a name="graph-theory"></a>
-- [brainGraph](https://github.com/cwatson/brainGraph)
->- Graph theory analysis of brain MRI data
-
->- License: None
->- Languages: `R`
->- Tags: brain-connectivity, brain-imaging, complex-networks, connectome, connectomics, fmri, graph-theory, mri, network-analysis, neuroimaging, neuroscience, r, statistics, tractography
->- Forks:	54 
->- Issues:	11
->- Watchers:	194
->- Last updated: 2026-04-14
-
-### Network-Analysis <a name="network-analysis"></a>
-- [brainGraph](https://github.com/cwatson/brainGraph)
->- Graph theory analysis of brain MRI data
-
->- License: None
->- Languages: `R`
->- Tags: brain-connectivity, brain-imaging, complex-networks, connectome, connectomics, fmri, graph-theory, mri, network-analysis, neuroimaging, neuroscience, r, statistics, tractography
->- Forks:	54 
->- Issues:	11
->- Watchers:	194
->- Last updated: 2026-04-14
-
-### Statistics <a name="statistics"></a>
-- [brainGraph](https://github.com/cwatson/brainGraph)
->- Graph theory analysis of brain MRI data
-
->- License: None
->- Languages: `R`
->- Tags: brain-connectivity, brain-imaging, complex-networks, connectome, connectomics, fmri, graph-theory, mri, network-analysis, neuroimaging, neuroscience, r, statistics, tractography
->- Forks:	54 
->- Issues:	11
->- Watchers:	194
->- Last updated: 2026-04-14
-
-### Fastmri <a name="fastmri"></a>
-- [fastMRI](https://github.com/facebookresearch/fastMRI)
->- A large-scale dataset of both raw MRI measurements and clinical MRI images.
-
->- License: MIT License
->- Languages: `Python`
->- Tags: convolutional-neural-networks, deep-learning, fastmri, fastmri-challenge, fastmri-dataset, medical-imaging, mri, mri-reconstruction, pytorch
->- Forks:	421 
->- Issues:	18
->- Watchers:	1520
->- Last updated: 2026-04-22
-
-### Fastmri-Dataset <a name="fastmri-dataset"></a>
-- [fastMRI](https://github.com/facebookresearch/fastMRI)
->- A large-scale dataset of both raw MRI measurements and clinical MRI images.
-
->- License: MIT License
->- Languages: `Python`
->- Tags: convolutional-neural-networks, deep-learning, fastmri, fastmri-challenge, fastmri-dataset, medical-imaging, mri, mri-reconstruction, pytorch
->- Forks:	421 
->- Issues:	18
->- Watchers:	1520
->- Last updated: 2026-04-22
-
 ### Fetal-Mri <a name="fetal-mri"></a>
 - [fetal-IQA](https://github.com/daviddmc/fetal-IQA)
 >- Image quality assessment for fetal MRI
@@ -3277,6 +3865,198 @@ To add a project, add the project url to the `urls.toml` file.
 >- Issues:	0
 >- Watchers:	7
 >- Last updated: 2026-01-21
+
+### 3D-Reconstruction <a name="3d-reconstruction"></a>
+- [NeSVoR](https://github.com/daviddmc/NeSVoR)
+>- NeSVoR is a package for GPU-accelerated slice-to-volume reconstruction.
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: 3d-reconstruction, 3d-visualization, deep-learning, image-reconstruction, image-registration, implicit-neural-representation, medical-imaging, mri, nerf, neural-network, neural-rendering, pytorch, segmentation, super-resolution, transformers
+>- Forks:	24 
+>- Issues:	7
+>- Watchers:	105
+>- Last updated: 2026-04-20
+
+### 3D-Visualization <a name="3d-visualization"></a>
+- [NeSVoR](https://github.com/daviddmc/NeSVoR)
+>- NeSVoR is a package for GPU-accelerated slice-to-volume reconstruction.
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: 3d-reconstruction, 3d-visualization, deep-learning, image-reconstruction, image-registration, implicit-neural-representation, medical-imaging, mri, nerf, neural-network, neural-rendering, pytorch, segmentation, super-resolution, transformers
+>- Forks:	24 
+>- Issues:	7
+>- Watchers:	105
+>- Last updated: 2026-04-20
+
+### Implicit-Neural-Representation <a name="implicit-neural-representation"></a>
+- [NeSVoR](https://github.com/daviddmc/NeSVoR)
+>- NeSVoR is a package for GPU-accelerated slice-to-volume reconstruction.
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: 3d-reconstruction, 3d-visualization, deep-learning, image-reconstruction, image-registration, implicit-neural-representation, medical-imaging, mri, nerf, neural-network, neural-rendering, pytorch, segmentation, super-resolution, transformers
+>- Forks:	24 
+>- Issues:	7
+>- Watchers:	105
+>- Last updated: 2026-04-20
+
+### Nerf <a name="nerf"></a>
+- [NeSVoR](https://github.com/daviddmc/NeSVoR)
+>- NeSVoR is a package for GPU-accelerated slice-to-volume reconstruction.
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: 3d-reconstruction, 3d-visualization, deep-learning, image-reconstruction, image-registration, implicit-neural-representation, medical-imaging, mri, nerf, neural-network, neural-rendering, pytorch, segmentation, super-resolution, transformers
+>- Forks:	24 
+>- Issues:	7
+>- Watchers:	105
+>- Last updated: 2026-04-20
+
+### Neural-Network <a name="neural-network"></a>
+- [NeSVoR](https://github.com/daviddmc/NeSVoR)
+>- NeSVoR is a package for GPU-accelerated slice-to-volume reconstruction.
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: 3d-reconstruction, 3d-visualization, deep-learning, image-reconstruction, image-registration, implicit-neural-representation, medical-imaging, mri, nerf, neural-network, neural-rendering, pytorch, segmentation, super-resolution, transformers
+>- Forks:	24 
+>- Issues:	7
+>- Watchers:	105
+>- Last updated: 2026-04-20
+
+### Neural-Rendering <a name="neural-rendering"></a>
+- [NeSVoR](https://github.com/daviddmc/NeSVoR)
+>- NeSVoR is a package for GPU-accelerated slice-to-volume reconstruction.
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: 3d-reconstruction, 3d-visualization, deep-learning, image-reconstruction, image-registration, implicit-neural-representation, medical-imaging, mri, nerf, neural-network, neural-rendering, pytorch, segmentation, super-resolution, transformers
+>- Forks:	24 
+>- Issues:	7
+>- Watchers:	105
+>- Last updated: 2026-04-20
+
+### Transformers <a name="transformers"></a>
+- [NeSVoR](https://github.com/daviddmc/NeSVoR)
+>- NeSVoR is a package for GPU-accelerated slice-to-volume reconstruction.
+
+>- License: MIT License
+>- Languages: `Python`
+>- Tags: 3d-reconstruction, 3d-visualization, deep-learning, image-reconstruction, image-registration, implicit-neural-representation, medical-imaging, mri, nerf, neural-network, neural-rendering, pytorch, segmentation, super-resolution, transformers
+>- Forks:	24 
+>- Issues:	7
+>- Watchers:	105
+>- Last updated: 2026-04-20
+
+### Reconstruction <a name="reconstruction"></a>
+- [SVRTK](https://github.com/SVRTK/SVRTK)
+>- MIRTK based SVR reconstruction
+
+>- License: Apache License 2.0
+>- Languages: `C++`
+>- Tags: fetal, mri, reconstruction, retrospecitve, slice-to-volume
+>- Forks:	8 
+>- Issues:	5
+>- Watchers:	67
+>- Last updated: 2026-03-24
+
+### Retrospecitve <a name="retrospecitve"></a>
+- [SVRTK](https://github.com/SVRTK/SVRTK)
+>- MIRTK based SVR reconstruction
+
+>- License: Apache License 2.0
+>- Languages: `C++`
+>- Tags: fetal, mri, reconstruction, retrospecitve, slice-to-volume
+>- Forks:	8 
+>- Issues:	5
+>- Watchers:	67
+>- Last updated: 2026-03-24
+
+### Slice-To-Volume <a name="slice-to-volume"></a>
+- [SVRTK](https://github.com/SVRTK/SVRTK)
+>- MIRTK based SVR reconstruction
+
+>- License: Apache License 2.0
+>- Languages: `C++`
+>- Tags: fetal, mri, reconstruction, retrospecitve, slice-to-volume
+>- Forks:	8 
+>- Issues:	5
+>- Watchers:	67
+>- Last updated: 2026-03-24
+
+### Bids-Apps <a name="bids-apps"></a>
+- [mialsuperresolutiontoolkit](https://github.com/Medical-Image-Analysis-Laboratory/mialsuperresolutiontoolkit)
+>- The Medical Image Analysis Laboratory Super-Resolution ToolKit (MIALSRTK) consists of a set of C++ and Python processing and workflow tools necessary to perform motion-robust super-resolution fetal MRI reconstruction in the BIDS Apps framework.
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `C++`
+>- Tags: bids, bids-apps, fetal, itk, mri, nipype, super-resolution, workflow
+>- Forks:	15 
+>- Issues:	17
+>- Watchers:	30
+>- Last updated: 2025-12-30
+
+### Nipype <a name="nipype"></a>
+- [mialsuperresolutiontoolkit](https://github.com/Medical-Image-Analysis-Laboratory/mialsuperresolutiontoolkit)
+>- The Medical Image Analysis Laboratory Super-Resolution ToolKit (MIALSRTK) consists of a set of C++ and Python processing and workflow tools necessary to perform motion-robust super-resolution fetal MRI reconstruction in the BIDS Apps framework.
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `C++`
+>- Tags: bids, bids-apps, fetal, itk, mri, nipype, super-resolution, workflow
+>- Forks:	15 
+>- Issues:	17
+>- Watchers:	30
+>- Last updated: 2025-12-30
+
+### Workflow <a name="workflow"></a>
+- [mialsuperresolutiontoolkit](https://github.com/Medical-Image-Analysis-Laboratory/mialsuperresolutiontoolkit)
+>- The Medical Image Analysis Laboratory Super-Resolution ToolKit (MIALSRTK) consists of a set of C++ and Python processing and workflow tools necessary to perform motion-robust super-resolution fetal MRI reconstruction in the BIDS Apps framework.
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `C++`
+>- Tags: bids, bids-apps, fetal, itk, mri, nipype, super-resolution, workflow
+>- Forks:	15 
+>- Issues:	17
+>- Watchers:	30
+>- Last updated: 2025-12-30
+
+### Healthcare-Imaging <a name="healthcare-imaging"></a>
+- [MONAI](https://github.com/Project-MONAI/MONAI)
+>- AI Toolkit for Healthcare Imaging
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: deep-learning, healthcare-imaging, medical-image-computing, medical-image-processing, monai, python3, pytorch
+>- Forks:	1484 
+>- Issues:	481
+>- Watchers:	8114
+>- Last updated: 2026-04-28
+
+### Monai <a name="monai"></a>
+- [MONAI](https://github.com/Project-MONAI/MONAI)
+>- AI Toolkit for Healthcare Imaging
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: deep-learning, healthcare-imaging, medical-image-computing, medical-image-processing, monai, python3, pytorch
+>- Forks:	1484 
+>- Issues:	481
+>- Watchers:	8114
+>- Last updated: 2026-04-28
+
+### Python3 <a name="python3"></a>
+- [MONAI](https://github.com/Project-MONAI/MONAI)
+>- AI Toolkit for Healthcare Imaging
+
+>- License: Apache License 2.0
+>- Languages: `Python`
+>- Tags: deep-learning, healthcare-imaging, medical-image-computing, medical-image-processing, monai, python3, pytorch
+>- Forks:	1484 
+>- Issues:	481
+>- Watchers:	8114
+>- Last updated: 2026-04-28
 
 ### Fusion <a name="fusion"></a>
 - [sHDR](https://github.com/shakes76/sHDR)
@@ -3314,209 +4094,257 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	17
 >- Last updated: 2026-01-23
 
-### 3D-Segmentation <a name="3d-segmentation"></a>
-- [brainchop](https://github.com/neuroneural/brainchop)
->- Brainchop: In-browser 3D MRI rendering and segmentation
+### 3D-Slicer-Extension <a name="3d-slicer-extension"></a>
+- [ukftractography](https://github.com/pnlbwh/ukftractography)
+>- None
 
->- License: MIT License
+>- License: Other
+>- Languages: `C`
+>- Tags: 3d-slicer-extension
+>- Forks:	31 
+>- Issues:	10
+>- Watchers:	31
+>- Last updated: 2025-12-10
+
+### Bart-Toolbox <a name="bart-toolbox"></a>
+- [bart](https://github.com/mrirecon/bart)
+>- BART: Toolbox for Computational Magnetic Resonance Imaging
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `C`
+>- Tags: bart-toolbox, compressed-sensing, computational-imaging, deep-learning, iterative-methods, mri
+>- Forks:	174 
+>- Issues:	18
+>- Watchers:	363
+>- Last updated: 2026-04-10
+
+### Compressed-Sensing <a name="compressed-sensing"></a>
+- [bart](https://github.com/mrirecon/bart)
+>- BART: Toolbox for Computational Magnetic Resonance Imaging
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `C`
+>- Tags: bart-toolbox, compressed-sensing, computational-imaging, deep-learning, iterative-methods, mri
+>- Forks:	174 
+>- Issues:	18
+>- Watchers:	363
+>- Last updated: 2026-04-10
+
+### Computational-Imaging <a name="computational-imaging"></a>
+- [bart](https://github.com/mrirecon/bart)
+>- BART: Toolbox for Computational Magnetic Resonance Imaging
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `C`
+>- Tags: bart-toolbox, compressed-sensing, computational-imaging, deep-learning, iterative-methods, mri
+>- Forks:	174 
+>- Issues:	18
+>- Watchers:	363
+>- Last updated: 2026-04-10
+
+### Iterative-Methods <a name="iterative-methods"></a>
+- [bart](https://github.com/mrirecon/bart)
+>- BART: Toolbox for Computational Magnetic Resonance Imaging
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `C`
+>- Tags: bart-toolbox, compressed-sensing, computational-imaging, deep-learning, iterative-methods, mri
+>- Forks:	174 
+>- Issues:	18
+>- Watchers:	363
+>- Last updated: 2026-04-10
+
+### Neural-Networks <a name="neural-networks"></a>
+- [deepmedic](https://github.com/deepmedic/deepmedic)
+>- Efficient Multi-Scale 3D Convolutional Neural Network for Segmentation of 3D Medical Scans
+
+>- License: BSD 3-Clause "New" or "Revised" License
+>- Languages: `Python`
+>- Tags: convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, neural-networks
+>- Forks:	342 
+>- Issues:	23
+>- Watchers:	1060
+>- Last updated: 2026-04-21
+
+### Magnetic-Field-Solver <a name="magnetic-field-solver"></a>
+- [pyCoilGen](https://github.com/kev-m/pyCoilGen)
+>- Magnetic Field Coil Generator for Python, ported from CoilGen
+
+>- License: GNU General Public License v3.0
+>- Languages: `Python`
+>- Tags: magnetic-field-solver, magnetic-resonance-imaging, medical-physics, mri, nmr, physics
+>- Forks:	11 
+>- Issues:	4
+>- Watchers:	23
+>- Last updated: 2026-04-20
+
+### Nmr <a name="nmr"></a>
+- [pyCoilGen](https://github.com/kev-m/pyCoilGen)
+>- Magnetic Field Coil Generator for Python, ported from CoilGen
+
+>- License: GNU General Public License v3.0
+>- Languages: `Python`
+>- Tags: magnetic-field-solver, magnetic-resonance-imaging, medical-physics, mri, nmr, physics
+>- Forks:	11 
+>- Issues:	4
+>- Watchers:	23
+>- Last updated: 2026-04-20
+
+### Physics <a name="physics"></a>
+- [pyCoilGen](https://github.com/kev-m/pyCoilGen)
+>- Magnetic Field Coil Generator for Python, ported from CoilGen
+
+>- License: GNU General Public License v3.0
+>- Languages: `Python`
+>- Tags: magnetic-field-solver, magnetic-resonance-imaging, medical-physics, mri, nmr, physics
+>- Forks:	11 
+>- Issues:	4
+>- Watchers:	23
+>- Last updated: 2026-04-20
+
+### Pet-Mr <a name="pet-mr"></a>
+- [SIRF](https://github.com/SyneRBI/SIRF?tab=readme-ov-file)
+>- Main repository for the CCP SynerBI software
+
+>- License: Other
+>- Languages: `C++`
+>- Tags: image-reconstruction, medical-imaging, pet-mr
+>- Forks:	32 
+>- Issues:	168
+>- Watchers:	69
+>- Last updated: 2026-04-21
+
+### Denoising-Algorithm <a name="denoising-algorithm"></a>
+- [nlsam](https://github.com/samuelstjean/nlsam)
+>- The reference implementation for the Non Local Spatial and Angular Matching (NLSAM) denoising algorithm for diffusion MRI
+
+>- License: GNU General Public License v3.0
+>- Languages: `Python`
+>- Tags: denoising-algorithm, diffusion-mri, machine-learning, python
+>- Forks:	11 
+>- Issues:	1
+>- Watchers:	25
+>- Last updated: 2026-02-11
+
+### Imaging <a name="imaging"></a>
+- [RadQy](https://github.com/ccipd/MRQy)
+>- RadQy is a quality assurance and checking tool for quantitative assessment of magnetic resonance imaging (MRI) and computed tomography (CT) data.
+
+>- License: None
 >- Languages: `Javascript`
->- Tags: 3d-segmentation, deep-learning, frontend-app, javascript, medical-imaging, mri, mri-segmentation, neuroimaging, pyodide, tensorflowjs, three-js
->- Forks:	62 
->- Issues:	8
->- Watchers:	525
->- Last updated: 2026-04-19
+>- Tags: imaging, machine-learning, medical-image-processing, medical-imaging, medical-physics, mri, python, quality-assurance, quality-control, quality-metrics
+>- Forks:	38 
+>- Issues:	1
+>- Watchers:	118
+>- Last updated: 2026-04-09
 
-### Frontend-App <a name="frontend-app"></a>
-- [brainchop](https://github.com/neuroneural/brainchop)
->- Brainchop: In-browser 3D MRI rendering and segmentation
+### Quality-Metrics <a name="quality-metrics"></a>
+- [RadQy](https://github.com/ccipd/MRQy)
+>- RadQy is a quality assurance and checking tool for quantitative assessment of magnetic resonance imaging (MRI) and computed tomography (CT) data.
 
->- License: MIT License
+>- License: None
 >- Languages: `Javascript`
->- Tags: 3d-segmentation, deep-learning, frontend-app, javascript, medical-imaging, mri, mri-segmentation, neuroimaging, pyodide, tensorflowjs, three-js
->- Forks:	62 
->- Issues:	8
->- Watchers:	525
->- Last updated: 2026-04-19
+>- Tags: imaging, machine-learning, medical-image-processing, medical-imaging, medical-physics, mri, python, quality-assurance, quality-control, quality-metrics
+>- Forks:	38 
+>- Issues:	1
+>- Watchers:	118
+>- Last updated: 2026-04-09
 
-### Javascript <a name="javascript"></a>
-- [brainchop](https://github.com/neuroneural/brainchop)
->- Brainchop: In-browser 3D MRI rendering and segmentation
-
->- License: MIT License
->- Languages: `Javascript`
->- Tags: 3d-segmentation, deep-learning, frontend-app, javascript, medical-imaging, mri, mri-segmentation, neuroimaging, pyodide, tensorflowjs, three-js
->- Forks:	62 
->- Issues:	8
->- Watchers:	525
->- Last updated: 2026-04-19
-
-### Mri-Segmentation <a name="mri-segmentation"></a>
-- [brainchop](https://github.com/neuroneural/brainchop)
->- Brainchop: In-browser 3D MRI rendering and segmentation
-
->- License: MIT License
->- Languages: `Javascript`
->- Tags: 3d-segmentation, deep-learning, frontend-app, javascript, medical-imaging, mri, mri-segmentation, neuroimaging, pyodide, tensorflowjs, three-js
->- Forks:	62 
->- Issues:	8
->- Watchers:	525
->- Last updated: 2026-04-19
-
-### Pyodide <a name="pyodide"></a>
-- [brainchop](https://github.com/neuroneural/brainchop)
->- Brainchop: In-browser 3D MRI rendering and segmentation
-
->- License: MIT License
->- Languages: `Javascript`
->- Tags: 3d-segmentation, deep-learning, frontend-app, javascript, medical-imaging, mri, mri-segmentation, neuroimaging, pyodide, tensorflowjs, three-js
->- Forks:	62 
->- Issues:	8
->- Watchers:	525
->- Last updated: 2026-04-19
-
-### Tensorflowjs <a name="tensorflowjs"></a>
-- [brainchop](https://github.com/neuroneural/brainchop)
->- Brainchop: In-browser 3D MRI rendering and segmentation
-
->- License: MIT License
->- Languages: `Javascript`
->- Tags: 3d-segmentation, deep-learning, frontend-app, javascript, medical-imaging, mri, mri-segmentation, neuroimaging, pyodide, tensorflowjs, three-js
->- Forks:	62 
->- Issues:	8
->- Watchers:	525
->- Last updated: 2026-04-19
-
-### Three-Js <a name="three-js"></a>
-- [brainchop](https://github.com/neuroneural/brainchop)
->- Brainchop: In-browser 3D MRI rendering and segmentation
-
->- License: MIT License
->- Languages: `Javascript`
->- Tags: 3d-segmentation, deep-learning, frontend-app, javascript, medical-imaging, mri, mri-segmentation, neuroimaging, pyodide, tensorflowjs, three-js
->- Forks:	62 
->- Issues:	8
->- Watchers:	525
->- Last updated: 2026-04-19
-
-### 3D-Printing <a name="3d-printing"></a>
-- [Slicer](https://github.com/Slicer/Slicer)
->- Multi-platform, free open source software for visualization and image computing.
+### Big-Data <a name="big-data"></a>
+- [nipype](https://github.com/nipy/nipype)
+>- Workflows and interfaces for neuroimaging packages
 
 >- License: Other
->- Languages: `C++`
->- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
->- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
+>- Languages: `Python`
+>- Tags: big-data, brain-imaging, brainweb, data-science, dataflow, dataflow-programming, neuroimaging, python, workflow-engine
+>- Forks:	544 
+>- Issues:	427
+>- Watchers:	825
+>- Last updated: 2026-04-27
 
-### 3D-Slicer <a name="3d-slicer"></a>
-- [Slicer](https://github.com/Slicer/Slicer)
->- Multi-platform, free open source software for visualization and image computing.
-
->- License: Other
->- Languages: `C++`
->- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
->- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
-
-### Computed-Tomography <a name="computed-tomography"></a>
-- [Slicer](https://github.com/Slicer/Slicer)
->- Multi-platform, free open source software for visualization and image computing.
+### Brainweb <a name="brainweb"></a>
+- [nipype](https://github.com/nipy/nipype)
+>- Workflows and interfaces for neuroimaging packages
 
 >- License: Other
->- Languages: `C++`
->- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
->- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
+>- Languages: `Python`
+>- Tags: big-data, brain-imaging, brainweb, data-science, dataflow, dataflow-programming, neuroimaging, python, workflow-engine
+>- Forks:	544 
+>- Issues:	427
+>- Watchers:	825
+>- Last updated: 2026-04-27
 
-### Image-Guided-Therapy <a name="image-guided-therapy"></a>
-- [Slicer](https://github.com/Slicer/Slicer)
->- Multi-platform, free open source software for visualization and image computing.
-
->- License: Other
->- Languages: `C++`
->- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
->- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
-
-### Kitware <a name="kitware"></a>
-- [Slicer](https://github.com/Slicer/Slicer)
->- Multi-platform, free open source software for visualization and image computing.
+### Data-Science <a name="data-science"></a>
+- [nipype](https://github.com/nipy/nipype)
+>- Workflows and interfaces for neuroimaging packages
 
 >- License: Other
->- Languages: `C++`
->- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
->- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
+>- Languages: `Python`
+>- Tags: big-data, brain-imaging, brainweb, data-science, dataflow, dataflow-programming, neuroimaging, python, workflow-engine
+>- Forks:	544 
+>- Issues:	427
+>- Watchers:	825
+>- Last updated: 2026-04-27
 
-### National-Institutes-Of-Health <a name="national-institutes-of-health"></a>
-- [Slicer](https://github.com/Slicer/Slicer)
->- Multi-platform, free open source software for visualization and image computing.
-
->- License: Other
->- Languages: `C++`
->- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
->- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
-
-### Nih <a name="nih"></a>
-- [Slicer](https://github.com/Slicer/Slicer)
->- Multi-platform, free open source software for visualization and image computing.
+### Dataflow <a name="dataflow"></a>
+- [nipype](https://github.com/nipy/nipype)
+>- Workflows and interfaces for neuroimaging packages
 
 >- License: Other
->- Languages: `C++`
->- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
->- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
+>- Languages: `Python`
+>- Tags: big-data, brain-imaging, brainweb, data-science, dataflow, dataflow-programming, neuroimaging, python, workflow-engine
+>- Forks:	544 
+>- Issues:	427
+>- Watchers:	825
+>- Last updated: 2026-04-27
 
-### Qt <a name="qt"></a>
-- [Slicer](https://github.com/Slicer/Slicer)
->- Multi-platform, free open source software for visualization and image computing.
-
->- License: Other
->- Languages: `C++`
->- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
->- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
-
-### Tcia-Dac <a name="tcia-dac"></a>
-- [Slicer](https://github.com/Slicer/Slicer)
->- Multi-platform, free open source software for visualization and image computing.
+### Dataflow-Programming <a name="dataflow-programming"></a>
+- [nipype](https://github.com/nipy/nipype)
+>- Workflows and interfaces for neuroimaging packages
 
 >- License: Other
->- Languages: `C++`
->- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
->- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
+>- Languages: `Python`
+>- Tags: big-data, brain-imaging, brainweb, data-science, dataflow, dataflow-programming, neuroimaging, python, workflow-engine
+>- Forks:	544 
+>- Issues:	427
+>- Watchers:	825
+>- Last updated: 2026-04-27
 
-### Vtk <a name="vtk"></a>
-- [Slicer](https://github.com/Slicer/Slicer)
->- Multi-platform, free open source software for visualization and image computing.
+### Workflow-Engine <a name="workflow-engine"></a>
+- [nipype](https://github.com/nipy/nipype)
+>- Workflows and interfaces for neuroimaging packages
 
 >- License: Other
->- Languages: `C++`
->- Tags: 3d-printing, 3d-slicer, c-plus-plus, computed-tomography, image-guided-therapy, image-processing, itk, kitware, medical-image-computing, medical-imaging, national-institutes-of-health, neuroimaging, nih, python, qt, registration, segmentation, tcia-dac, tractography, vtk
->- Forks:	722 
->- Issues:	664
->- Watchers:	2426
->- Last updated: 2026-04-26
+>- Languages: `Python`
+>- Tags: big-data, brain-imaging, brainweb, data-science, dataflow, dataflow-programming, neuroimaging, python, workflow-engine
+>- Forks:	544 
+>- Issues:	427
+>- Watchers:	825
+>- Last updated: 2026-04-27
+
+### Neuroimage <a name="neuroimage"></a>
+- [spinalcordtoolbox](https://github.com/spinalcordtoolbox/spinalcordtoolbox)
+>- Comprehensive and open-source library of analysis tools for MRI of the spinal cord.
+
+>- License: GNU Lesser General Public License v3.0
+>- Languages: `Python`
+>- Tags: mri, neuroimage, python, spinalcord
+>- Forks:	118 
+>- Issues:	395
+>- Watchers:	261
+>- Last updated: 2026-04-24
+
+### Spinalcord <a name="spinalcord"></a>
+- [spinalcordtoolbox](https://github.com/spinalcordtoolbox/spinalcordtoolbox)
+>- Comprehensive and open-source library of analysis tools for MRI of the spinal cord.
+
+>- License: GNU Lesser General Public License v3.0
+>- Languages: `Python`
+>- Tags: mri, neuroimage, python, spinalcord
+>- Forks:	118 
+>- Issues:	395
+>- Watchers:	261
+>- Last updated: 2026-04-24
 
 ### Afni-Brik-Head <a name="afni-brik-head"></a>
 - [nibabel](https://github.com/nipy/nibabel)
@@ -3626,78 +4454,6 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	774
 >- Last updated: 2026-04-14
 
-### Neuroimage <a name="neuroimage"></a>
-- [spinalcordtoolbox](https://github.com/spinalcordtoolbox/spinalcordtoolbox)
->- Comprehensive and open-source library of analysis tools for MRI of the spinal cord.
-
->- License: GNU Lesser General Public License v3.0
->- Languages: `Python`
->- Tags: mri, neuroimage, python, spinalcord
->- Forks:	118 
->- Issues:	396
->- Watchers:	261
->- Last updated: 2026-04-24
-
-### Spinalcord <a name="spinalcord"></a>
-- [spinalcordtoolbox](https://github.com/spinalcordtoolbox/spinalcordtoolbox)
->- Comprehensive and open-source library of analysis tools for MRI of the spinal cord.
-
->- License: GNU Lesser General Public License v3.0
->- Languages: `Python`
->- Tags: mri, neuroimage, python, spinalcord
->- Forks:	118 
->- Issues:	396
->- Watchers:	261
->- Last updated: 2026-04-24
-
-### Bids-Apps <a name="bids-apps"></a>
-- [mialsuperresolutiontoolkit](https://github.com/Medical-Image-Analysis-Laboratory/mialsuperresolutiontoolkit)
->- The Medical Image Analysis Laboratory Super-Resolution ToolKit (MIALSRTK) consists of a set of C++ and Python processing and workflow tools necessary to perform motion-robust super-resolution fetal MRI reconstruction in the BIDS Apps framework.
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `C++`
->- Tags: bids, bids-apps, fetal, itk, mri, nipype, super-resolution, workflow
->- Forks:	15 
->- Issues:	17
->- Watchers:	30
->- Last updated: 2025-12-30
-
-### Nipype <a name="nipype"></a>
-- [mialsuperresolutiontoolkit](https://github.com/Medical-Image-Analysis-Laboratory/mialsuperresolutiontoolkit)
->- The Medical Image Analysis Laboratory Super-Resolution ToolKit (MIALSRTK) consists of a set of C++ and Python processing and workflow tools necessary to perform motion-robust super-resolution fetal MRI reconstruction in the BIDS Apps framework.
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `C++`
->- Tags: bids, bids-apps, fetal, itk, mri, nipype, super-resolution, workflow
->- Forks:	15 
->- Issues:	17
->- Watchers:	30
->- Last updated: 2025-12-30
-
-### Workflow <a name="workflow"></a>
-- [mialsuperresolutiontoolkit](https://github.com/Medical-Image-Analysis-Laboratory/mialsuperresolutiontoolkit)
->- The Medical Image Analysis Laboratory Super-Resolution ToolKit (MIALSRTK) consists of a set of C++ and Python processing and workflow tools necessary to perform motion-robust super-resolution fetal MRI reconstruction in the BIDS Apps framework.
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `C++`
->- Tags: bids, bids-apps, fetal, itk, mri, nipype, super-resolution, workflow
->- Forks:	15 
->- Issues:	17
->- Watchers:	30
->- Last updated: 2025-12-30
-
-### Pet-Mr <a name="pet-mr"></a>
-- [SIRF](https://github.com/SyneRBI/SIRF?tab=readme-ov-file)
->- Main repository for the CCP SynerBI software
-
->- License: Other
->- Languages: `C++`
->- Tags: image-reconstruction, medical-imaging, pet-mr
->- Forks:	32 
->- Issues:	168
->- Watchers:	69
->- Last updated: 2026-04-21
-
 ### Glioblastoma <a name="glioblastoma"></a>
 - [BraTS-Toolkit](https://github.com/neuronflow/BraTS-Toolkit)
 >- Code to preprocess, segment, and fuse glioma MRI scans based on the BraTS Toolkit manuscript.
@@ -3722,413 +4478,77 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	102
 >- Last updated: 2026-04-23
 
-### Neural-Networks <a name="neural-networks"></a>
-- [deepmedic](https://github.com/deepmedic/deepmedic)
->- Efficient Multi-Scale 3D Convolutional Neural Network for Segmentation of 3D Medical Scans
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `Python`
->- Tags: convolutional-neural-networks, deep-learning, machine-learning, medical-imaging, neural-networks
->- Forks:	343 
->- Issues:	23
->- Watchers:	1060
->- Last updated: 2026-04-21
-
-### Healthcare-Imaging <a name="healthcare-imaging"></a>
-- [MONAI](https://github.com/Project-MONAI/MONAI)
->- AI Toolkit for Healthcare Imaging
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: deep-learning, healthcare-imaging, medical-image-computing, medical-image-processing, monai, python3, pytorch
->- Forks:	1485 
->- Issues:	481
->- Watchers:	8113
->- Last updated: 2026-04-27
-
-### Monai <a name="monai"></a>
-- [MONAI](https://github.com/Project-MONAI/MONAI)
->- AI Toolkit for Healthcare Imaging
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: deep-learning, healthcare-imaging, medical-image-computing, medical-image-processing, monai, python3, pytorch
->- Forks:	1485 
->- Issues:	481
->- Watchers:	8113
->- Last updated: 2026-04-27
-
-### Python3 <a name="python3"></a>
-- [MONAI](https://github.com/Project-MONAI/MONAI)
->- AI Toolkit for Healthcare Imaging
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: deep-learning, healthcare-imaging, medical-image-computing, medical-image-processing, monai, python3, pytorch
->- Forks:	1485 
->- Issues:	481
->- Watchers:	8113
->- Last updated: 2026-04-27
-
-### Bart-Toolbox <a name="bart-toolbox"></a>
-- [bart](https://github.com/mrirecon/bart)
->- BART: Toolbox for Computational Magnetic Resonance Imaging
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `C`
->- Tags: bart-toolbox, compressed-sensing, computational-imaging, deep-learning, iterative-methods, mri
->- Forks:	174 
->- Issues:	18
->- Watchers:	363
->- Last updated: 2026-04-10
-
-### Compressed-Sensing <a name="compressed-sensing"></a>
-- [bart](https://github.com/mrirecon/bart)
->- BART: Toolbox for Computational Magnetic Resonance Imaging
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `C`
->- Tags: bart-toolbox, compressed-sensing, computational-imaging, deep-learning, iterative-methods, mri
->- Forks:	174 
->- Issues:	18
->- Watchers:	363
->- Last updated: 2026-04-10
-
-### Computational-Imaging <a name="computational-imaging"></a>
-- [bart](https://github.com/mrirecon/bart)
->- BART: Toolbox for Computational Magnetic Resonance Imaging
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `C`
->- Tags: bart-toolbox, compressed-sensing, computational-imaging, deep-learning, iterative-methods, mri
->- Forks:	174 
->- Issues:	18
->- Watchers:	363
->- Last updated: 2026-04-10
-
-### Iterative-Methods <a name="iterative-methods"></a>
-- [bart](https://github.com/mrirecon/bart)
->- BART: Toolbox for Computational Magnetic Resonance Imaging
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `C`
->- Tags: bart-toolbox, compressed-sensing, computational-imaging, deep-learning, iterative-methods, mri
->- Forks:	174 
->- Issues:	18
->- Watchers:	363
->- Last updated: 2026-04-10
-
-### Cuda <a name="cuda"></a>
-- [disimpy](https://github.com/kerkelae/disimpy)
->- Massively parallel Monte Carlo diffusion MR simulator written in Python.
-
->- License: MIT License
->- Languages: `Python`
->- Tags: cuda, diffusion-mri, gpu-computing, monte-carlo-simulation
->- Forks:	9 
->- Issues:	6
->- Watchers:	29
->- Last updated: 2026-03-28
-
-### Gpu-Computing <a name="gpu-computing"></a>
-- [disimpy](https://github.com/kerkelae/disimpy)
->- Massively parallel Monte Carlo diffusion MR simulator written in Python.
-
->- License: MIT License
->- Languages: `Python`
->- Tags: cuda, diffusion-mri, gpu-computing, monte-carlo-simulation
->- Forks:	9 
->- Issues:	6
->- Watchers:	29
->- Last updated: 2026-03-28
-
-### Monte-Carlo-Simulation <a name="monte-carlo-simulation"></a>
-- [disimpy](https://github.com/kerkelae/disimpy)
->- Massively parallel Monte Carlo diffusion MR simulator written in Python.
-
->- License: MIT License
->- Languages: `Python`
->- Tags: cuda, diffusion-mri, gpu-computing, monte-carlo-simulation
->- Forks:	9 
->- Issues:	6
->- Watchers:	29
->- Last updated: 2026-03-28
-
-### Image-Segmentation <a name="image-segmentation"></a>
-- [smriprep](https://github.com/nipreps/smriprep)
->- Structural MRI PREProcessing (sMRIPrep) workflows for NIPreps (NeuroImaging PREProcessing tools)
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: image-processing, image-registration, image-segmentation, mri, structural-mri, surface-reconstruction
->- Forks:	46 
->- Issues:	80
->- Watchers:	163
->- Last updated: 2026-04-24
-
-### Structural-Mri <a name="structural-mri"></a>
-- [smriprep](https://github.com/nipreps/smriprep)
->- Structural MRI PREProcessing (sMRIPrep) workflows for NIPreps (NeuroImaging PREProcessing tools)
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: image-processing, image-registration, image-segmentation, mri, structural-mri, surface-reconstruction
->- Forks:	46 
->- Issues:	80
->- Watchers:	163
->- Last updated: 2026-04-24
-
-### Surface-Reconstruction <a name="surface-reconstruction"></a>
-- [smriprep](https://github.com/nipreps/smriprep)
->- Structural MRI PREProcessing (sMRIPrep) workflows for NIPreps (NeuroImaging PREProcessing tools)
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: image-processing, image-registration, image-segmentation, mri, structural-mri, surface-reconstruction
->- Forks:	46 
->- Issues:	80
->- Watchers:	163
->- Last updated: 2026-04-24
-
-### Cardiac <a name="cardiac"></a>
-- [KomaMRI.jl](https://github.com/JuliaHealth/KomaMRI.jl)
->- Koma is a Pulseq-compatible framework to efficiently simulate Magnetic Resonance Imaging (MRI) acquisitions. The main focus of this package is to simulate general scenarios that could arise in pulse sequence development.
-
->- License: MIT License
->- Languages: `Julia`
->- Tags: cardiac, diffusion, diffusion-mri, gpu-acceleration, mri, simulation
->- Forks:	36 
->- Issues:	104
->- Watchers:	197
->- Last updated: 2026-04-27
-
-### Diffusion <a name="diffusion"></a>
-- [KomaMRI.jl](https://github.com/JuliaHealth/KomaMRI.jl)
->- Koma is a Pulseq-compatible framework to efficiently simulate Magnetic Resonance Imaging (MRI) acquisitions. The main focus of this package is to simulate general scenarios that could arise in pulse sequence development.
-
->- License: MIT License
->- Languages: `Julia`
->- Tags: cardiac, diffusion, diffusion-mri, gpu-acceleration, mri, simulation
->- Forks:	36 
->- Issues:	104
->- Watchers:	197
->- Last updated: 2026-04-27
-
-### Gpu-Acceleration <a name="gpu-acceleration"></a>
-- [KomaMRI.jl](https://github.com/JuliaHealth/KomaMRI.jl)
->- Koma is a Pulseq-compatible framework to efficiently simulate Magnetic Resonance Imaging (MRI) acquisitions. The main focus of this package is to simulate general scenarios that could arise in pulse sequence development.
-
->- License: MIT License
->- Languages: `Julia`
->- Tags: cardiac, diffusion, diffusion-mri, gpu-acceleration, mri, simulation
->- Forks:	36 
->- Issues:	104
->- Watchers:	197
->- Last updated: 2026-04-27
-
-### 3D-Slicer-Extension <a name="3d-slicer-extension"></a>
-- [ukftractography](https://github.com/pnlbwh/ukftractography)
->- None
-
->- License: Other
->- Languages: `C`
->- Tags: 3d-slicer-extension
->- Forks:	31 
->- Issues:	10
->- Watchers:	31
->- Last updated: 2025-12-10
-
-### Magnetic-Field-Solver <a name="magnetic-field-solver"></a>
-- [pyCoilGen](https://github.com/kev-m/pyCoilGen)
->- Magnetic Field Coil Generator for Python, ported from CoilGen
-
->- License: GNU General Public License v3.0
->- Languages: `Python`
->- Tags: magnetic-field-solver, magnetic-resonance-imaging, medical-physics, mri, nmr, physics
->- Forks:	11 
->- Issues:	4
->- Watchers:	23
->- Last updated: 2026-04-20
-
-### Nmr <a name="nmr"></a>
-- [pyCoilGen](https://github.com/kev-m/pyCoilGen)
->- Magnetic Field Coil Generator for Python, ported from CoilGen
-
->- License: GNU General Public License v3.0
->- Languages: `Python`
->- Tags: magnetic-field-solver, magnetic-resonance-imaging, medical-physics, mri, nmr, physics
->- Forks:	11 
->- Issues:	4
->- Watchers:	23
->- Last updated: 2026-04-20
-
-### Physics <a name="physics"></a>
-- [pyCoilGen](https://github.com/kev-m/pyCoilGen)
->- Magnetic Field Coil Generator for Python, ported from CoilGen
-
->- License: GNU General Public License v3.0
->- Languages: `Python`
->- Tags: magnetic-field-solver, magnetic-resonance-imaging, medical-physics, mri, nmr, physics
->- Forks:	11 
->- Issues:	4
->- Watchers:	23
->- Last updated: 2026-04-20
-
-### Augmentation <a name="augmentation"></a>
-- [torchio](https://github.com/fepegar/torchio)
->- Medical imaging processing for AI applications.
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: augmentation, data-augmentation, deep-learning, machine-learning, medical-image-analysis, medical-image-computing, medical-image-processing, python, pytorch
->- Forks:	262 
->- Issues:	27
->- Watchers:	2394
->- Last updated: 2026-04-26
-
-### Data-Augmentation <a name="data-augmentation"></a>
-- [torchio](https://github.com/fepegar/torchio)
->- Medical imaging processing for AI applications.
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: augmentation, data-augmentation, deep-learning, machine-learning, medical-image-analysis, medical-image-computing, medical-image-processing, python, pytorch
->- Forks:	262 
->- Issues:	27
->- Watchers:	2394
->- Last updated: 2026-04-26
-
-### Csharp <a name="csharp"></a>
-- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
->- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
-
->- License: Apache License 2.0
->- Languages: `C++`
->- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
->- Forks:	228 
->- Issues:	79
->- Watchers:	1055
->- Last updated: 2026-04-23
-
-### Image-Analysis <a name="image-analysis"></a>
-- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
->- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
-
->- License: Apache License 2.0
->- Languages: `C++`
->- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
->- Forks:	228 
->- Issues:	79
->- Watchers:	1055
->- Last updated: 2026-04-23
-
-### Java <a name="java"></a>
-- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
->- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
-
->- License: Apache License 2.0
->- Languages: `C++`
->- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
->- Forks:	228 
->- Issues:	79
->- Watchers:	1055
->- Last updated: 2026-04-23
-
-### Lua <a name="lua"></a>
-- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
->- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
-
->- License: Apache License 2.0
->- Languages: `C++`
->- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
->- Forks:	228 
->- Issues:	79
->- Watchers:	1055
->- Last updated: 2026-04-23
-
-### Ruby <a name="ruby"></a>
-- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
->- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
-
->- License: Apache License 2.0
->- Languages: `C++`
->- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
->- Forks:	228 
->- Issues:	79
->- Watchers:	1055
->- Last updated: 2026-04-23
-
-### Simpleitk <a name="simpleitk"></a>
-- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
->- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
-
->- License: Apache License 2.0
->- Languages: `C++`
->- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
->- Forks:	228 
->- Issues:	79
->- Watchers:	1055
->- Last updated: 2026-04-23
-
-### Swig <a name="swig"></a>
-- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
->- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
-
->- License: Apache License 2.0
->- Languages: `C++`
->- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
->- Forks:	228 
->- Issues:	79
->- Watchers:	1055
->- Last updated: 2026-04-23
-
-### Tcl <a name="tcl"></a>
-- [SimpleITK](https://github.com/SimpleITK/SimpleITK)
->- SimpleITK: a layer built on top of the Insight Toolkit (ITK), intended to simplify and facilitate ITK's use in rapid prototyping, education and interpreted languages.
-
->- License: Apache License 2.0
->- Languages: `C++`
->- Tags: c-plus-plus, csharp, image-analysis, image-processing, itk, java, lua, python, r, registration, ruby, segmentation, simpleitk, swig, tcl
->- Forks:	228 
->- Issues:	79
->- Watchers:	1055
->- Last updated: 2026-04-23
-
-### Brain-Mri <a name="brain-mri"></a>
-- [nilearn](https://github.com/nilearn/nilearn)
->- Machine learning for NeuroImaging in Python
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `Python`
->- Tags: brain-connectivity, brain-imaging, brain-mri, decoding, fmri, machine-learning, mvpa, neuroimaging, python
->- Forks:	654 
->- Issues:	292
->- Watchers:	1391
->- Last updated: 2026-04-27
-
-### Decoding <a name="decoding"></a>
-- [nilearn](https://github.com/nilearn/nilearn)
->- Machine learning for NeuroImaging in Python
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `Python`
->- Tags: brain-connectivity, brain-imaging, brain-mri, decoding, fmri, machine-learning, mvpa, neuroimaging, python
->- Forks:	654 
->- Issues:	292
->- Watchers:	1391
->- Last updated: 2026-04-27
-
-### Mvpa <a name="mvpa"></a>
-- [nilearn](https://github.com/nilearn/nilearn)
->- Machine learning for NeuroImaging in Python
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `Python`
->- Tags: brain-connectivity, brain-imaging, brain-mri, decoding, fmri, machine-learning, mvpa, neuroimaging, python
->- Forks:	654 
->- Issues:	292
->- Watchers:	1391
->- Last updated: 2026-04-27
+### Complex-Networks <a name="complex-networks"></a>
+- [brainGraph](https://github.com/cwatson/brainGraph)
+>- Graph theory analysis of brain MRI data
+
+>- License: None
+>- Languages: `R`
+>- Tags: brain-connectivity, brain-imaging, complex-networks, connectome, connectomics, fmri, graph-theory, mri, network-analysis, neuroimaging, neuroscience, r, statistics, tractography
+>- Forks:	54 
+>- Issues:	11
+>- Watchers:	194
+>- Last updated: 2026-04-14
+
+### Connectome <a name="connectome"></a>
+- [brainGraph](https://github.com/cwatson/brainGraph)
+>- Graph theory analysis of brain MRI data
+
+>- License: None
+>- Languages: `R`
+>- Tags: brain-connectivity, brain-imaging, complex-networks, connectome, connectomics, fmri, graph-theory, mri, network-analysis, neuroimaging, neuroscience, r, statistics, tractography
+>- Forks:	54 
+>- Issues:	11
+>- Watchers:	194
+>- Last updated: 2026-04-14
+
+### Connectomics <a name="connectomics"></a>
+- [brainGraph](https://github.com/cwatson/brainGraph)
+>- Graph theory analysis of brain MRI data
+
+>- License: None
+>- Languages: `R`
+>- Tags: brain-connectivity, brain-imaging, complex-networks, connectome, connectomics, fmri, graph-theory, mri, network-analysis, neuroimaging, neuroscience, r, statistics, tractography
+>- Forks:	54 
+>- Issues:	11
+>- Watchers:	194
+>- Last updated: 2026-04-14
+
+### Graph-Theory <a name="graph-theory"></a>
+- [brainGraph](https://github.com/cwatson/brainGraph)
+>- Graph theory analysis of brain MRI data
+
+>- License: None
+>- Languages: `R`
+>- Tags: brain-connectivity, brain-imaging, complex-networks, connectome, connectomics, fmri, graph-theory, mri, network-analysis, neuroimaging, neuroscience, r, statistics, tractography
+>- Forks:	54 
+>- Issues:	11
+>- Watchers:	194
+>- Last updated: 2026-04-14
+
+### Network-Analysis <a name="network-analysis"></a>
+- [brainGraph](https://github.com/cwatson/brainGraph)
+>- Graph theory analysis of brain MRI data
+
+>- License: None
+>- Languages: `R`
+>- Tags: brain-connectivity, brain-imaging, complex-networks, connectome, connectomics, fmri, graph-theory, mri, network-analysis, neuroimaging, neuroscience, r, statistics, tractography
+>- Forks:	54 
+>- Issues:	11
+>- Watchers:	194
+>- Last updated: 2026-04-14
+
+### Statistics <a name="statistics"></a>
+- [brainGraph](https://github.com/cwatson/brainGraph)
+>- Graph theory analysis of brain MRI data
+
+>- License: None
+>- Languages: `R`
+>- Tags: brain-connectivity, brain-imaging, complex-networks, connectome, connectomics, fmri, graph-theory, mri, network-analysis, neuroimaging, neuroscience, r, statistics, tractography
+>- Forks:	54 
+>- Issues:	11
+>- Watchers:	194
+>- Last updated: 2026-04-14
 
 ### Dicom-Converter <a name="dicom-converter"></a>
 - [mritopng](https://github.com/danishm/mritopng)
@@ -4202,426 +4622,6 @@ To add a project, add the project url to the `urls.toml` file.
 >- Watchers:	301
 >- Last updated: 2026-04-19
 
-### Freesurfer <a name="freesurfer"></a>
-- [freesurfer](https://github.com/freesurfer/freesurfer)
->- Neuroimaging analysis and visualization suite
-
->- License: Other
->- Languages: `C++`
->- Tags: freesurfer, lcn, mri, neuroimaging
->- Forks:	287 
->- Issues:	13
->- Watchers:	825
->- Last updated: 2026-04-27
-
-### Lcn <a name="lcn"></a>
-- [freesurfer](https://github.com/freesurfer/freesurfer)
->- Neuroimaging analysis and visualization suite
-
->- License: Other
->- Languages: `C++`
->- Tags: freesurfer, lcn, mri, neuroimaging
->- Forks:	287 
->- Issues:	13
->- Watchers:	825
->- Last updated: 2026-04-27
-
-### Brain <a name="brain"></a>
-- [mrQA](https://github.com/Open-Minds-Lab/mrQA)
->- mrQA: tools for quality assurance in medical imaging datasets, including protocol compliance
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: brain, ismrm, mr-image, mri, mri-brain, mri-images, neuroimaging, neuroscience, niqc, qa, quality-assurance, quality-control
->- Forks:	6 
->- Issues:	38
->- Watchers:	14
->- Last updated: 2026-01-30
-
-### Ismrm <a name="ismrm"></a>
-- [mrQA](https://github.com/Open-Minds-Lab/mrQA)
->- mrQA: tools for quality assurance in medical imaging datasets, including protocol compliance
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: brain, ismrm, mr-image, mri, mri-brain, mri-images, neuroimaging, neuroscience, niqc, qa, quality-assurance, quality-control
->- Forks:	6 
->- Issues:	38
->- Watchers:	14
->- Last updated: 2026-01-30
-
-### Mr-Image <a name="mr-image"></a>
-- [mrQA](https://github.com/Open-Minds-Lab/mrQA)
->- mrQA: tools for quality assurance in medical imaging datasets, including protocol compliance
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: brain, ismrm, mr-image, mri, mri-brain, mri-images, neuroimaging, neuroscience, niqc, qa, quality-assurance, quality-control
->- Forks:	6 
->- Issues:	38
->- Watchers:	14
->- Last updated: 2026-01-30
-
-### Mri-Brain <a name="mri-brain"></a>
-- [mrQA](https://github.com/Open-Minds-Lab/mrQA)
->- mrQA: tools for quality assurance in medical imaging datasets, including protocol compliance
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: brain, ismrm, mr-image, mri, mri-brain, mri-images, neuroimaging, neuroscience, niqc, qa, quality-assurance, quality-control
->- Forks:	6 
->- Issues:	38
->- Watchers:	14
->- Last updated: 2026-01-30
-
-### Niqc <a name="niqc"></a>
-- [mrQA](https://github.com/Open-Minds-Lab/mrQA)
->- mrQA: tools for quality assurance in medical imaging datasets, including protocol compliance
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: brain, ismrm, mr-image, mri, mri-brain, mri-images, neuroimaging, neuroscience, niqc, qa, quality-assurance, quality-control
->- Forks:	6 
->- Issues:	38
->- Watchers:	14
->- Last updated: 2026-01-30
-
-### Ml <a name="ml"></a>
-- [tensorflow-mri](https://github.com/mrphys/tensorflow-mri)
->- A Library of TensorFlow Operators for Computational MRI
-
->- License: Apache License 2.0
->- Languages: `Jupyter Notebook`
->- Tags: machine-learning, magnetic-resonance-imaging, ml, mri, python, tensorflow
->- Forks:	6 
->- Issues:	11
->- Watchers:	49
->- Last updated: 2026-04-22
-
-### Mri-Phantoms <a name="mri-phantoms"></a>
-- [hazen](https://github.com/GSTT-CSC/hazen)
->- Quality assurance framework for Magnetic Resonance Imaging
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: image-processing, mri, mri-phantoms, python, qa, quality-assurance
->- Forks:	13 
->- Issues:	45
->- Watchers:	30
->- Last updated: 2026-04-24
-
-### Cortical-Thickness <a name="cortical-thickness"></a>
-- [DL-DiReCT](https://github.com/SCAN-NRAD/DL-DiReCT)
->- DL+DiReCT - Direct Cortical Thickness Estimation using Deep Learning-based Anatomy Segmentation and Cortex Parcellation
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `Python`
->- Tags: cortical-thickness, deep-learning, morphometry, mri
->- Forks:	7 
->- Issues:	4
->- Watchers:	31
->- Last updated: 2026-03-20
-
-### Morphometry <a name="morphometry"></a>
-- [DL-DiReCT](https://github.com/SCAN-NRAD/DL-DiReCT)
->- DL+DiReCT - Direct Cortical Thickness Estimation using Deep Learning-based Anatomy Segmentation and Cortex Parcellation
-
->- License: BSD 3-Clause "New" or "Revised" License
->- Languages: `Python`
->- Tags: cortical-thickness, deep-learning, morphometry, mri
->- Forks:	7 
->- Issues:	4
->- Watchers:	31
->- Last updated: 2026-03-20
-
-### Denoising-Algorithm <a name="denoising-algorithm"></a>
-- [nlsam](https://github.com/samuelstjean/nlsam)
->- The reference implementation for the Non Local Spatial and Angular Matching (NLSAM) denoising algorithm for diffusion MRI
-
->- License: GNU General Public License v3.0
->- Languages: `Python`
->- Tags: denoising-algorithm, diffusion-mri, machine-learning, python
->- Forks:	11 
->- Issues:	1
->- Watchers:	25
->- Last updated: 2026-02-11
-
-### Reconstruction <a name="reconstruction"></a>
-- [SVRTK](https://github.com/SVRTK/SVRTK)
->- MIRTK based SVR reconstruction
-
->- License: Apache License 2.0
->- Languages: `C++`
->- Tags: fetal, mri, reconstruction, retrospecitve, slice-to-volume
->- Forks:	8 
->- Issues:	5
->- Watchers:	67
->- Last updated: 2026-03-24
-
-### Retrospecitve <a name="retrospecitve"></a>
-- [SVRTK](https://github.com/SVRTK/SVRTK)
->- MIRTK based SVR reconstruction
-
->- License: Apache License 2.0
->- Languages: `C++`
->- Tags: fetal, mri, reconstruction, retrospecitve, slice-to-volume
->- Forks:	8 
->- Issues:	5
->- Watchers:	67
->- Last updated: 2026-03-24
-
-### Slice-To-Volume <a name="slice-to-volume"></a>
-- [SVRTK](https://github.com/SVRTK/SVRTK)
->- MIRTK based SVR reconstruction
-
->- License: Apache License 2.0
->- Languages: `C++`
->- Tags: fetal, mri, reconstruction, retrospecitve, slice-to-volume
->- Forks:	8 
->- Issues:	5
->- Watchers:	67
->- Last updated: 2026-03-24
-
-### Fitting <a name="fitting"></a>
-- [vespa](https://github.com/vespa-mrs/vespa)
->- Python tools for Magnetic Resonance Spectroscopy - Pulses, Simulation and Analysis
-
->- License: Other
->- Languages: `Python`
->- Tags: fitting, mrs, python, rf-pulse, simulation, spectroscopy, wxpython
->- Forks:	6 
->- Issues:	6
->- Watchers:	12
->- Last updated: 2026-03-30
-
-### Mrs <a name="mrs"></a>
-- [vespa](https://github.com/vespa-mrs/vespa)
->- Python tools for Magnetic Resonance Spectroscopy - Pulses, Simulation and Analysis
-
->- License: Other
->- Languages: `Python`
->- Tags: fitting, mrs, python, rf-pulse, simulation, spectroscopy, wxpython
->- Forks:	6 
->- Issues:	6
->- Watchers:	12
->- Last updated: 2026-03-30
-
-### Rf-Pulse <a name="rf-pulse"></a>
-- [vespa](https://github.com/vespa-mrs/vespa)
->- Python tools for Magnetic Resonance Spectroscopy - Pulses, Simulation and Analysis
-
->- License: Other
->- Languages: `Python`
->- Tags: fitting, mrs, python, rf-pulse, simulation, spectroscopy, wxpython
->- Forks:	6 
->- Issues:	6
->- Watchers:	12
->- Last updated: 2026-03-30
-
-### Spectroscopy <a name="spectroscopy"></a>
-- [vespa](https://github.com/vespa-mrs/vespa)
->- Python tools for Magnetic Resonance Spectroscopy - Pulses, Simulation and Analysis
-
->- License: Other
->- Languages: `Python`
->- Tags: fitting, mrs, python, rf-pulse, simulation, spectroscopy, wxpython
->- Forks:	6 
->- Issues:	6
->- Watchers:	12
->- Last updated: 2026-03-30
-
-### Wxpython <a name="wxpython"></a>
-- [vespa](https://github.com/vespa-mrs/vespa)
->- Python tools for Magnetic Resonance Spectroscopy - Pulses, Simulation and Analysis
-
->- License: Other
->- Languages: `Python`
->- Tags: fitting, mrs, python, rf-pulse, simulation, spectroscopy, wxpython
->- Forks:	6 
->- Issues:	6
->- Watchers:	12
->- Last updated: 2026-03-30
-
-### Alzheimer-Disease <a name="alzheimer-disease"></a>
-- [clinicadl](https://github.com/aramis-lab/clinicadl)
->- Framework for the reproducible processing of neuroimaging data with deep learning methods
-
->- License: MIT License
->- Languages: `Python`
->- Tags: alzheimer-disease, brain-imaging, convolutional-neural-network, deep-learning, medical-imaging, neuroimaging, python, pytorch
->- Forks:	60 
->- Issues:	54
->- Watchers:	178
->- Last updated: 2026-03-10
-
-### Convolutional-Neural-Network <a name="convolutional-neural-network"></a>
-- [clinicadl](https://github.com/aramis-lab/clinicadl)
->- Framework for the reproducible processing of neuroimaging data with deep learning methods
-
->- License: MIT License
->- Languages: `Python`
->- Tags: alzheimer-disease, brain-imaging, convolutional-neural-network, deep-learning, medical-imaging, neuroimaging, python, pytorch
->- Forks:	60 
->- Issues:	54
->- Watchers:	178
->- Last updated: 2026-03-10
-
-### Fcm <a name="fcm"></a>
-- [intensity-normalization](https://github.com/jcreinhold/intensity-normalization)
->- Normalize MR image intensities in Python
-
->- License: MIT License
->- Languages: `Python`
->- Tags: fcm, harmonization, intensity-normalization, mri, neuroimaging, normalization, standardization, whitestripe, zscore
->- Forks:	58 
->- Issues:	0
->- Watchers:	342
->- Last updated: 2026-04-20
-
-### Harmonization <a name="harmonization"></a>
-- [intensity-normalization](https://github.com/jcreinhold/intensity-normalization)
->- Normalize MR image intensities in Python
-
->- License: MIT License
->- Languages: `Python`
->- Tags: fcm, harmonization, intensity-normalization, mri, neuroimaging, normalization, standardization, whitestripe, zscore
->- Forks:	58 
->- Issues:	0
->- Watchers:	342
->- Last updated: 2026-04-20
-
-### Intensity-Normalization <a name="intensity-normalization"></a>
-- [intensity-normalization](https://github.com/jcreinhold/intensity-normalization)
->- Normalize MR image intensities in Python
-
->- License: MIT License
->- Languages: `Python`
->- Tags: fcm, harmonization, intensity-normalization, mri, neuroimaging, normalization, standardization, whitestripe, zscore
->- Forks:	58 
->- Issues:	0
->- Watchers:	342
->- Last updated: 2026-04-20
-
-### Normalization <a name="normalization"></a>
-- [intensity-normalization](https://github.com/jcreinhold/intensity-normalization)
->- Normalize MR image intensities in Python
-
->- License: MIT License
->- Languages: `Python`
->- Tags: fcm, harmonization, intensity-normalization, mri, neuroimaging, normalization, standardization, whitestripe, zscore
->- Forks:	58 
->- Issues:	0
->- Watchers:	342
->- Last updated: 2026-04-20
-
-### Standardization <a name="standardization"></a>
-- [intensity-normalization](https://github.com/jcreinhold/intensity-normalization)
->- Normalize MR image intensities in Python
-
->- License: MIT License
->- Languages: `Python`
->- Tags: fcm, harmonization, intensity-normalization, mri, neuroimaging, normalization, standardization, whitestripe, zscore
->- Forks:	58 
->- Issues:	0
->- Watchers:	342
->- Last updated: 2026-04-20
-
-### Whitestripe <a name="whitestripe"></a>
-- [intensity-normalization](https://github.com/jcreinhold/intensity-normalization)
->- Normalize MR image intensities in Python
-
->- License: MIT License
->- Languages: `Python`
->- Tags: fcm, harmonization, intensity-normalization, mri, neuroimaging, normalization, standardization, whitestripe, zscore
->- Forks:	58 
->- Issues:	0
->- Watchers:	342
->- Last updated: 2026-04-20
-
-### Zscore <a name="zscore"></a>
-- [intensity-normalization](https://github.com/jcreinhold/intensity-normalization)
->- Normalize MR image intensities in Python
-
->- License: MIT License
->- Languages: `Python`
->- Tags: fcm, harmonization, intensity-normalization, mri, neuroimaging, normalization, standardization, whitestripe, zscore
->- Forks:	58 
->- Issues:	0
->- Watchers:	342
->- Last updated: 2026-04-20
-
-### Imaging <a name="imaging"></a>
-- [RadQy](https://github.com/ccipd/MRQy)
->- RadQy is a quality assurance and checking tool for quantitative assessment of magnetic resonance imaging (MRI) and computed tomography (CT) data.
-
->- License: None
->- Languages: `Javascript`
->- Tags: imaging, machine-learning, medical-image-processing, medical-imaging, medical-physics, mri, python, quality-assurance, quality-control, quality-metrics
->- Forks:	38 
->- Issues:	1
->- Watchers:	118
->- Last updated: 2026-04-09
-
-### Quality-Metrics <a name="quality-metrics"></a>
-- [RadQy](https://github.com/ccipd/MRQy)
->- RadQy is a quality assurance and checking tool for quantitative assessment of magnetic resonance imaging (MRI) and computed tomography (CT) data.
-
->- License: None
->- Languages: `Javascript`
->- Tags: imaging, machine-learning, medical-image-processing, medical-imaging, medical-physics, mri, python, quality-assurance, quality-control, quality-metrics
->- Forks:	38 
->- Issues:	1
->- Watchers:	118
->- Last updated: 2026-04-09
-
-### Mri-Sequences <a name="mri-sequences"></a>
-- [pypulseq](https://github.com/imr-framework/pypulseq)
->- Pulseq in Python
-
->- License: MIT License
->- Languages: `Python`
->- Tags: mri, mri-sequences, pulse-sequences, pulseq, python
->- Forks:	88 
->- Issues:	34
->- Watchers:	198
->- Last updated: 2026-04-27
-
-### Pulse-Sequences <a name="pulse-sequences"></a>
-- [pypulseq](https://github.com/imr-framework/pypulseq)
->- Pulseq in Python
-
->- License: MIT License
->- Languages: `Python`
->- Tags: mri, mri-sequences, pulse-sequences, pulseq, python
->- Forks:	88 
->- Issues:	34
->- Watchers:	198
->- Last updated: 2026-04-27
-
-### Pulseq <a name="pulseq"></a>
-- [pypulseq](https://github.com/imr-framework/pypulseq)
->- Pulseq in Python
-
->- License: MIT License
->- Languages: `Python`
->- Tags: mri, mri-sequences, pulse-sequences, pulseq, python
->- Forks:	88 
->- Issues:	34
->- Watchers:	198
->- Last updated: 2026-04-27
-
-### Quality-Reporter <a name="quality-reporter"></a>
-- [mriqc](https://github.com/nipreps/mriqc)
->- Automated Quality Control and visual reports for Quality Assessment of structural (T1w, T2w) and functional MRI of the brain
-
->- License: Apache License 2.0
->- Languages: `Python`
->- Tags: machine-learning, mri, neuroimaging, quality-control, quality-reporter
->- Forks:	138 
->- Issues:	91
->- Watchers:	356
->- Last updated: 2026-04-25
-
 
 
 ## Languages
@@ -4632,5 +4632,5 @@ To add a project, add the project url to the `urls.toml` file.
 ### Javascript <a name="javascript"></a>
 ### C <a name="c"></a>
 ### R <a name="r"></a>
-### Matlab <a name="matlab"></a>
 ### Typescript <a name="typescript"></a>
+### Matlab <a name="matlab"></a>
